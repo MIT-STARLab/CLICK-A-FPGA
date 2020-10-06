@@ -1,0 +1,60 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily spartan6
+SET_PREFERENCE device xc6slx9
+SET_PREFERENCE speedgrade -3
+SET_PREFERENCE package tqg144
+SET_PREFERENCE verilogsim false
+SET_PREFERENCE vhdlsim true
+SET_PREFERENCE simulationfiles Structural
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory Z:/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/
+SET_PREFERENCE workingdirectory Z:/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/tmp/
+SET_PREFERENCE subworkingdirectory Z:/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/tmp/_cg/
+SET_PREFERENCE transientdirectory Z:/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/tmp/_cg/_dbg/
+SET_PREFERENCE designentry VHDL
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER ENABLE_INJECTION true
+SET_PARAMETER ENABLE_CORRECTION true
+SET_PARAMETER CORRECTION_METHOD repair
+SET_PARAMETER ENABLE_CLASSIFICATION false
+SET_PARAMETER INJECTION_SHIM pins
+SET_PARAMETER RETRIEVAL_SHIM none
+SET_PARAMETER CLOCK_FREQ 48
+SET_PARAMETER COMPONENT_NAME sem_v3_6_0
+SET_PARAMETER ENABLE_TOP_GT_SCAN true
+SET_PARAMETER ENABLE_BOTTOM_GT_SCAN true
+SET_SIM_PARAMETER c_xdevice xc6slx9
+SET_SIM_PARAMETER c_xpackage tqg144
+SET_SIM_PARAMETER c_xspeedgrade -3
+SET_SIM_PARAMETER c_xdevicefamily spartan6
+SET_SIM_PARAMETER c_family spartan6
+SET_SIM_PARAMETER c_device_array 1
+SET_SIM_PARAMETER c_icapwidth 16
+SET_SIM_PARAMETER c_eipwidth 36
+SET_SIM_PARAMETER c_farwidth 24
+SET_SIM_PARAMETER c_component_name sem_v3_6_0
+SET_SIM_PARAMETER c_clock_per 20833
+SET_SIM_PARAMETER c_feature_set 7
+SET_SIM_PARAMETER c_hardware_cfg 5
+SET_SIM_PARAMETER c_software_cfg 2
+SET_SIM_PARAMETER b_gen_user_app false
+SET_SIM_PARAMETER c_scan_start_addr 0
+SET_SIM_PARAMETER c_scan_end_addr 2026
+SET_CORE_NAME Soft Error Mitigation
+SET_CORE_VERSION 3.6
+SET_CORE_VLNV xilinx.com:ip:sem:3.6
+SET_CORE_CLASS com.xilinx.ip.sem_v3_6.sem_v3_6
+SET_CORE_PATH C:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/sem_v3_6
+SET_CORE_GUIPATH C:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/sem_v3_6/gui/sem_v3_6.tcl
+SET_CORE_DATASHEET C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\sem_v3_6\doc\pg036_sem.pdf
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\sem_v3_6\doc\pg036_sem.pdf><pg036_sem.pdf>

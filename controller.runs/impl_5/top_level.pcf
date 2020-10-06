@@ -1,0 +1,270 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Sep 21 14:18:06 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "fx2Clk_in" LOCATE = SITE "P123" LEVEL 1;
+COMP "fx2Data_io[0]" LOCATE = SITE "P121" LEVEL 1;
+COMP "fx2Data_io[1]" LOCATE = SITE "P120" LEVEL 1;
+COMP "fx2Data_io[2]" LOCATE = SITE "P119" LEVEL 1;
+COMP "fx2Data_io[3]" LOCATE = SITE "P118" LEVEL 1;
+COMP "fx2Data_io[4]" LOCATE = SITE "P117" LEVEL 1;
+COMP "fx2Data_io[5]" LOCATE = SITE "P116" LEVEL 1;
+COMP "fx2Data_io[6]" LOCATE = SITE "P115" LEVEL 1;
+COMP "fx2Data_io[7]" LOCATE = SITE "P114" LEVEL 1;
+COMP "fx2Read_out" LOCATE = SITE "P105" LEVEL 1;
+COMP "fx2GotData_in" LOCATE = SITE "P111" LEVEL 1;
+COMP "fx2GotRoom_in" LOCATE = SITE "P112" LEVEL 1;
+COMP "fx2Write_out" LOCATE = SITE "P101" LEVEL 1;
+COMP "fx2PktEnd_out" LOCATE = SITE "P102" LEVEL 1;
+COMP "fx2Addr_out[1]" LOCATE = SITE "P104" LEVEL 1;
+TIMEGRP fx2Clk_in = BEL "controller_inst/EDFA_i_7" BEL
+        "controller_inst/EDFA_i_6" BEL "controller_inst/EDFA_i_5" BEL
+        "controller_inst/EDFA_i_4" BEL "controller_inst/EDFA_i_3" BEL
+        "controller_inst/EDFA_i_2" BEL "controller_inst/EDFA_i_1" BEL
+        "controller_inst/EDFA_i_0" BEL
+        "controller_inst/regFile_inst/regFile96_37_0" BEL
+        "controller_inst/regFile_inst/regFile96_37_1" BEL
+        "controller_inst/regFile_inst/regFile96_37_2" BEL
+        "controller_inst/regFile_inst/regFile96_37_3" BEL
+        "controller_inst/regFile_inst/regFile96_37_4" BEL
+        "controller_inst/regFile_inst/regFile96_37_5" BEL
+        "controller_inst/regFile_inst/regFile96_37_6" BEL
+        "controller_inst/regFile_inst/regFile96_37_7" BEL
+        "controller_inst/regFile_inst/LCC_o_wr" BEL
+        "controller_inst/regFile_inst/regFile96_14_0" BEL
+        "controller_inst/regFile_inst/regFile96_14_1" BEL
+        "controller_inst/regFile_inst/regFile96_14_2" BEL
+        "controller_inst/regFile_inst/regFile96_14_3" BEL
+        "controller_inst/regFile_inst/regFile96_14_4" BEL
+        "controller_inst/regFile_inst/regFile96_14_5" BEL
+        "controller_inst/regFile_inst/regFile96_14_6" BEL
+        "controller_inst/regFile_inst/regFile96_14_7" BEL
+        "controller_inst/regFile_inst/regFile96_15_0" BEL
+        "controller_inst/regFile_inst/regFile96_15_1" BEL
+        "controller_inst/regFile_inst/regFile96_15_2" BEL
+        "controller_inst/regFile_inst/regFile96_15_3" BEL
+        "controller_inst/regFile_inst/regFile96_15_4" BEL
+        "controller_inst/regFile_inst/regFile96_15_5" BEL
+        "controller_inst/regFile_inst/regFile96_15_6" BEL
+        "controller_inst/regFile_inst/regFile96_15_7" BEL
+        "controller_inst/regFile_inst/regFile96_1_0" BEL
+        "controller_inst/regFile_inst/regFile96_1_1" BEL
+        "controller_inst/regFile_inst/regFile96_1_2" BEL
+        "controller_inst/regFile_inst/regFile96_1_3" BEL
+        "controller_inst/regFile_inst/regFile96_1_4" BEL
+        "controller_inst/regFile_inst/regFile96_1_5" BEL
+        "controller_inst/regFile_inst/regFile96_23_0" BEL
+        "controller_inst/regFile_inst/regFile96_1_6" BEL
+        "controller_inst/regFile_inst/regFile96_23_1" BEL
+        "controller_inst/regFile_inst/regFile96_1_7" BEL
+        "controller_inst/regFile_inst/regFile96_23_2" BEL
+        "controller_inst/regFile_inst/regFile96_23_3" BEL
+        "controller_inst/regFile_inst/regFile96_23_4" BEL
+        "controller_inst/regFile_inst/regFile96_23_5" BEL
+        "controller_inst/regFile_inst/regFile96_23_6" BEL
+        "controller_inst/regFile_inst/regFile96_23_7" BEL
+        "controller_inst/regFile_inst/regFile96_2_0" BEL
+        "controller_inst/regFile_inst/regFile96_2_1" BEL
+        "controller_inst/regFile_inst/regFile96_2_2" BEL
+        "controller_inst/regFile_inst/regFile96_2_3" BEL
+        "controller_inst/regFile_inst/regFile96_2_4" BEL
+        "controller_inst/regFile_inst/regFile96_24_0" BEL
+        "controller_inst/regFile_inst/regFile96_2_5" BEL
+        "controller_inst/regFile_inst/regFile96_24_1" BEL
+        "controller_inst/regFile_inst/regFile96_2_6" BEL
+        "controller_inst/regFile_inst/regFile96_24_2" BEL
+        "controller_inst/regFile_inst/regFile96_2_7" BEL
+        "controller_inst/regFile_inst/regFile96_24_3" BEL
+        "controller_inst/regFile_inst/regFile96_24_4" BEL
+        "controller_inst/regFile_inst/regFile96_24_5" BEL
+        "controller_inst/regFile_inst/regFile96_24_6" BEL
+        "controller_inst/regFile_inst/regFile96_24_7" BEL
+        "controller_inst/regFile_inst/regFile96_3_0" BEL
+        "controller_inst/regFile_inst/regFile96_3_1" BEL
+        "controller_inst/regFile_inst/regFile96_3_2" BEL
+        "controller_inst/regFile_inst/regFile96_3_3" BEL
+        "controller_inst/regFile_inst/regFile96_3_4" BEL
+        "controller_inst/regFile_inst/regFile96_30_0" BEL
+        "controller_inst/regFile_inst/regFile96_25_0" BEL
+        "controller_inst/regFile_inst/regFile96_3_5" BEL
+        "controller_inst/regFile_inst/regFile96_25_1" BEL
+        "controller_inst/regFile_inst/regFile96_30_1" BEL
+        "controller_inst/regFile_inst/regFile96_3_6" BEL
+        "controller_inst/regFile_inst/regFile96_30_2" BEL
+        "controller_inst/regFile_inst/regFile96_25_2" BEL
+        "controller_inst/regFile_inst/regFile96_3_7" BEL
+        "controller_inst/regFile_inst/regFile96_25_3" BEL
+        "controller_inst/regFile_inst/regFile96_30_3" BEL
+        "controller_inst/regFile_inst/regFile96_30_4" BEL
+        "controller_inst/regFile_inst/regFile96_25_4" BEL
+        "controller_inst/regFile_inst/regFile96_25_5" BEL
+        "controller_inst/regFile_inst/regFile96_30_5" BEL
+        "controller_inst/regFile_inst/regFile96_25_6" BEL
+        "controller_inst/regFile_inst/regFile96_30_6" BEL
+        "controller_inst/regFile_inst/regFile96_25_7" BEL
+        "controller_inst/regFile_inst/regFile96_30_7" BEL
+        "controller_inst/regFile_inst/regFile96_4_0" BEL
+        "controller_inst/regFile_inst/regFile96_4_1" BEL
+        "controller_inst/regFile_inst/regFile96_4_2" BEL
+        "controller_inst/regFile_inst/regFile96_4_3" BEL
+        "controller_inst/regFile_inst/regFile96_4_4" BEL
+        "controller_inst/regFile_inst/regFile96_26_0" BEL
+        "controller_inst/regFile_inst/regFile96_31_0" BEL
+        "controller_inst/regFile_inst/regFile96_4_5" BEL
+        "controller_inst/regFile_inst/regFile96_31_1" BEL
+        "controller_inst/regFile_inst/regFile96_26_1" BEL
+        "controller_inst/regFile_inst/regFile96_26_2" BEL
+        "controller_inst/regFile_inst/regFile96_31_2" BEL
+        "controller_inst/regFile_inst/regFile96_26_3" BEL
+        "controller_inst/regFile_inst/regFile96_31_3" BEL
+        "controller_inst/regFile_inst/regFile96_31_4" BEL
+        "controller_inst/regFile_inst/regFile96_26_4" BEL
+        "controller_inst/regFile_inst/regFile96_26_5" BEL
+        "controller_inst/regFile_inst/regFile96_31_5" BEL
+        "controller_inst/regFile_inst/regFile96_26_6" BEL
+        "controller_inst/regFile_inst/regFile96_31_6" BEL
+        "controller_inst/regFile_inst/regFile96_26_7" BEL
+        "controller_inst/regFile_inst/regFile96_31_7" BEL
+        "controller_inst/regFile_inst/regFile96_5_0" BEL
+        "controller_inst/regFile_inst/regFile96_5_1" BEL
+        "controller_inst/regFile_inst/regFile96_5_2" BEL
+        "controller_inst/regFile_inst/regFile96_5_3" BEL
+        "controller_inst/regFile_inst/regFile96_5_4" BEL
+        "controller_inst/regFile_inst/regFile96_27_0" BEL
+        "controller_inst/regFile_inst/regFile96_32_0" BEL
+        "controller_inst/regFile_inst/regFile96_5_5" BEL
+        "controller_inst/regFile_inst/regFile96_27_1" BEL
+        "controller_inst/regFile_inst/regFile96_32_1" BEL
+        "controller_inst/regFile_inst/regFile96_5_6" BEL
+        "controller_inst/regFile_inst/regFile96_32_2" BEL
+        "controller_inst/regFile_inst/regFile96_27_2" BEL
+        "controller_inst/regFile_inst/regFile96_27_3" BEL
+        "controller_inst/regFile_inst/regFile96_32_3" BEL
+        "controller_inst/regFile_inst/regFile96_27_4" BEL
+        "controller_inst/regFile_inst/regFile96_32_4" BEL
+        "controller_inst/regFile_inst/regFile96_27_5" BEL
+        "controller_inst/regFile_inst/regFile96_32_5" BEL
+        "controller_inst/regFile_inst/regFile96_27_6" BEL
+        "controller_inst/regFile_inst/regFile96_32_6" BEL
+        "controller_inst/regFile_inst/regFile96_27_7" BEL
+        "controller_inst/regFile_inst/regFile96_32_7" BEL
+        "controller_inst/regFile_inst/regFile96_33_0" BEL
+        "controller_inst/regFile_inst/regFile96_28_0" BEL
+        "controller_inst/regFile_inst/regFile96_33_1" BEL
+        "controller_inst/regFile_inst/regFile96_28_1" BEL
+        "controller_inst/regFile_inst/regFile96_33_2" BEL
+        "controller_inst/regFile_inst/regFile96_28_2" BEL
+        "controller_inst/regFile_inst/regFile96_33_3" BEL
+        "controller_inst/regFile_inst/regFile96_28_3" BEL
+        "controller_inst/regFile_inst/regFile96_33_4" BEL
+        "controller_inst/regFile_inst/regFile96_28_4" BEL
+        "controller_inst/regFile_inst/regFile96_33_5" BEL
+        "controller_inst/regFile_inst/regFile96_28_5" BEL
+        "controller_inst/regFile_inst/regFile96_28_6" BEL
+        "controller_inst/regFile_inst/regFile96_33_6" BEL
+        "controller_inst/regFile_inst/regFile96_28_7" BEL
+        "controller_inst/regFile_inst/regFile96_33_7" BEL
+        "controller_inst/regFile_inst/regFile96_29_0" BEL
+        "controller_inst/regFile_inst/regFile96_34_0" BEL
+        "controller_inst/regFile_inst/regFile96_29_1" BEL
+        "controller_inst/regFile_inst/regFile96_34_1" BEL
+        "controller_inst/regFile_inst/regFile96_34_2" BEL
+        "controller_inst/regFile_inst/regFile96_29_2" BEL
+        "controller_inst/regFile_inst/regFile96_29_3" BEL
+        "controller_inst/regFile_inst/regFile96_34_3" BEL
+        "controller_inst/regFile_inst/regFile96_29_4" BEL
+        "controller_inst/regFile_inst/regFile96_34_4" BEL
+        "controller_inst/regFile_inst/regFile96_29_5" BEL
+        "controller_inst/regFile_inst/regFile96_34_5" BEL
+        "controller_inst/regFile_inst/regFile96_29_6" BEL
+        "controller_inst/regFile_inst/regFile96_34_6" BEL
+        "controller_inst/regFile_inst/regFile96_29_7" BEL
+        "controller_inst/regFile_inst/regFile96_34_7" BEL
+        "controller_inst/regFile_inst/regFile96_35_0" BEL
+        "controller_inst/regFile_inst/regFile96_35_1" BEL
+        "controller_inst/regFile_inst/regFile96_35_2" BEL
+        "controller_inst/regFile_inst/regFile96_35_3" BEL
+        "controller_inst/regFile_inst/regFile96_35_4" BEL
+        "controller_inst/regFile_inst/regFile96_35_5" BEL
+        "controller_inst/regFile_inst/regFile96_35_6" BEL
+        "controller_inst/regFile_inst/regFile96_35_7" BEL
+        "controller_inst/SPI3_inst/count_1" BEL
+        "controller_inst/SPI3_inst/count_0" BEL
+        "controller_inst/SPI3_inst/data_0" BEL
+        "controller_inst/SPI3_inst/data_1" BEL
+        "controller_inst/SPI3_inst/data_2" BEL
+        "controller_inst/SPI3_inst/data_3" BEL
+        "controller_inst/SPI3_inst/data_4" BEL
+        "controller_inst/SPI3_inst/data_5" BEL
+        "controller_inst/SPI3_inst/data_6" BEL
+        "controller_inst/SPI3_inst/data_7" BEL
+        "controller_inst/SPI3_inst/data_8" BEL
+        "controller_inst/SPI3_inst/data_9" BEL
+        "controller_inst/SPI3_inst/data_10" BEL
+        "controller_inst/SPI3_inst/data_11" BEL
+        "controller_inst/SPI3_inst/data_12" BEL
+        "controller_inst/SPI3_inst/data_13" BEL
+        "controller_inst/SPI3_inst/data_14" BEL
+        "controller_inst/SPI3_inst/data_15" BEL
+        "controller_inst/SPI3_inst/nrst" BEL "controller_inst/SPI3_inst/wr"
+        BEL "controller_inst/UART_inst/uart_ticks_7" BEL
+        "controller_inst/UART_inst/uart_ticks_6" BEL
+        "controller_inst/UART_inst/uart_ticks_5" BEL
+        "controller_inst/UART_inst/uart_ticks_4" BEL
+        "controller_inst/UART_inst/uart_ticks_3" BEL
+        "controller_inst/UART_inst/uart_ticks_2" BEL
+        "controller_inst/UART_inst/uart_ticks_1" BEL
+        "controller_inst/UART_inst/uart_ticks_0" BEL
+        "controller_inst/UART_inst/uart_rxd_debounced" BEL
+        "controller_inst/UART_inst/uart_rxd_shreg_3" BEL
+        "controller_inst/UART_inst/uart_rxd_shreg_2" BEL
+        "controller_inst/UART_inst/uart_rxd_shreg_1" BEL
+        "controller_inst/UART_inst/uart_rxd_shreg_0" BEL
+        "controller_inst/UART_inst/uart_clk_en" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_ticks_3" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_ticks_2" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_ticks_1" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_ticks_0" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_bit_count_2" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_bit_count_1" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_bit_count_0" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_pstate_FSM_FFd1" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_pstate_FSM_FFd2" BEL
+        "controller_inst/UART_inst/uart_rx_i/DATA_VLD" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_7" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_6" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_5" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_4" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_3" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_2" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_1" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_data_0" BEL
+        "controller_inst/UART_inst/uart_rx_i/rx_clk_en" BEL
+        "comm_fpga_fx2/state_FSM_FFd1" BEL "comm_fpga_fx2/state_FSM_FFd2" BEL
+        "comm_fpga_fx2/state_FSM_FFd3" BEL "comm_fpga_fx2/state_FSM_FFd4" BEL
+        "comm_fpga_fx2/count_16" BEL "comm_fpga_fx2/count_15" BEL
+        "comm_fpga_fx2/count_14" BEL "comm_fpga_fx2/count_13" BEL
+        "comm_fpga_fx2/count_12" BEL "comm_fpga_fx2/count_11" BEL
+        "comm_fpga_fx2/count_10" BEL "comm_fpga_fx2/count_9" BEL
+        "comm_fpga_fx2/count_8" BEL "comm_fpga_fx2/count_7" BEL
+        "comm_fpga_fx2/count_6" BEL "comm_fpga_fx2/count_5" BEL
+        "comm_fpga_fx2/count_4" BEL "comm_fpga_fx2/count_3" BEL
+        "comm_fpga_fx2/count_2" BEL "comm_fpga_fx2/count_1" BEL
+        "comm_fpga_fx2/count_0" BEL "comm_fpga_fx2/isWrite" BEL
+        "comm_fpga_fx2/chanAddr_6" BEL "comm_fpga_fx2/chanAddr_5" BEL
+        "comm_fpga_fx2/chanAddr_4" BEL "comm_fpga_fx2/chanAddr_3" BEL
+        "comm_fpga_fx2/chanAddr_2" BEL "comm_fpga_fx2/chanAddr_1" BEL
+        "comm_fpga_fx2/chanAddr_0" BEL "comm_fpga_fx2/isAligned" BEL
+        "comm_fpga_fx2/chanAddr_0_1" BEL "comm_fpga_fx2/chanAddr_1_1" BEL
+        "comm_fpga_fx2/chanAddr_0_2" BEL "comm_fpga_fx2/chanAddr_1_2" BEL
+        "comm_fpga_fx2/chanAddr_5_1" BEL "comm_fpga_fx2/chanAddr_2_1" BEL
+        "comm_fpga_fx2/chanAddr_3_1" BEL "comm_fpga_fx2/chanAddr_5_2" BEL
+        "comm_fpga_fx2/chanAddr_1_3" BEL "comm_fpga_fx2/chanAddr_3_2" BEL
+        "comm_fpga_fx2/state_FSM_FFd4_1" BEL "comm_fpga_fx2/state_FSM_FFd1_1"
+        BEL "comm_fpga_fx2/state_FSM_FFd3_1" BEL "comm_fpga_fx2/chanAddr_0_3"
+        BEL "comm_fpga_fx2/chanAddr_2_2" BEL "comm_fpga_fx2/chanAddr_5_3" BEL
+        "fx2Clk_in_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "fx2Clk_in" 20.833 ns HIGH 50%;
+SCHEMATIC END;
+

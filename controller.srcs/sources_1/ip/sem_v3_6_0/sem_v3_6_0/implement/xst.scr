@@ -1,0 +1,12 @@
+run
+-ifmt mixed
+-ifn xst.prj
+-top sem_v3_6_0_sem_example
+-ofn sem_example
+-opt_mode area
+-opt_level 2
+-bufg 0
+-lc area
+-iob false
+-p xc6slx9-tqg144-3
+

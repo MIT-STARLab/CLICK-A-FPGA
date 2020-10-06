@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_modulator1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="memorymaplibrary" />
+            <top_module name="nodelibrary" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_modulator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb_modulator/clk200" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk200</obj_property>
+      <obj_property name="ObjectShortName">clk200</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/nrst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/status" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">status</obj_property>
+      <obj_property name="ObjectShortName">status</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider27" type="divider">
+      <obj_property name="label">Modulator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/modulator_inst/ppm_modulator_inst/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/modulator_inst/check" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">check</obj_property>
+      <obj_property name="ObjectShortName">check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/sym_sync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sym_sync</obj_property>
+      <obj_property name="ObjectShortName">sym_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/ppm_rx_async" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ppm_rx_async</obj_property>
+      <obj_property name="ObjectShortName">ppm_rx_async</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/data_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_error</obj_property>
+      <obj_property name="ObjectShortName">data_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">Checker</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">Internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_modulator/modulator_inst/checker_inst/a_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">a_i</obj_property>
+         <obj_property name="ObjectShortName">a_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_modulator/modulator_inst/checker_inst/b_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">b_i</obj_property>
+         <obj_property name="ObjectShortName">b_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_modulator/modulator_inst/checker_inst/counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">counter[7:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_modulator/modulator_inst/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/errors_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">errors_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">errors_count[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/errors_count_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">errors_count_ready</obj_property>
+      <obj_property name="ObjectShortName">errors_count_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/ppm_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ppm_tx</obj_property>
+      <obj_property name="ObjectShortName">ppm_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/ones_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ones_count[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_modulator/ones_count_ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_count_ready</obj_property>
+      <obj_property name="ObjectShortName">ones_count_ready</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,514 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\nn\AppData\Roaming\Xilinx\PlanAhead
+Eaddmacc_macro
+Z1 w1381681048
+Z2 DPx6 unisim 11 vcomponents 0 22 ^SgSiH]fe0j`VL_8Rhmkj2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z5 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dC:\Users\nn\AppData\Roaming\Xilinx\PlanAhead
+Z9 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\ADDMACC_MACRO.vhd
+Z10 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\ADDMACC_MACRO.vhd
+l0
+L35
+VS^RJFNFg?]zFaKCFMT?z<0
+Z11 OL;C;10.1c;51
+31
+Z12 !s108 1494518751.902000
+Z13 !s90 -source|-93|-novopt|-explicit|-work|unimacro|-f|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\mti_se\10.1c\nt64/unimacro/.cxl.vhdl.unimacro.unimacro.nt64.cmf|
+Z14 !s107 C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\unimacro_VCOMP.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\MULT_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\MACC_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\FIFO_SYNC_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\FIFO_DUALCLOCK_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\EQ_COMPARE_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\COUNTER_TC_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\COUNTER_LOAD_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_TDP_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_SINGLE_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_SDP_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\ADDSUB_MACRO.vhd|C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\ADDMACC_MACRO.vhd|
+Z15 o-source -93 -explicit -work unimacro
+Z16 tExplicit 1
+!s100 io@F@SZ<NiD8P3F2h<PcK0
+!i10b 1
+Aaddmacc
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 13 addmacc_macro 0 22 S^RJFNFg?]zFaKCFMT?z<0
+l283
+L58
+V6kgIdlEdgz:iVHNzY`Az71
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 kIIXVzP=[9[15N3Y;R3cm0
+!i10b 1
+Eaddsub_macro
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z17 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\ADDSUB_MACRO.vhd
+Z18 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\ADDSUB_MACRO.vhd
+l0
+L36
+VY?U7Y8Y:=LXgH6^3Mb42<0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 YkoH^14JBc>MHd7CQ3C941
+!i10b 1
+Aaddsub
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 12 addsub_macro 0 22 Y?U7Y8Y:=LXgH6^3Mb42<0
+l193
+L61
+VYfiFdhe4Im;h;[BShoSdV2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 NJXf^Q75ijc5c;O=BFPc@3
+!i10b 1
+Ebram_sdp_macro
+R1
+R2
+R6
+R7
+R8
+Z19 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_SDP_MACRO.vhd
+Z20 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_SDP_MACRO.vhd
+l0
+L38
+V0LI<@iR24Vl>N@IWlfMiM1
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 FM^1VhjS2ed`SzKM@PG4c1
+!i10b 1
+Abram_v
+R2
+R6
+R7
+DEx4 work 14 bram_sdp_macro 0 22 0LI<@iR24Vl>N@IWlfMiM1
+l1349
+L217
+VW9;z=1U_b[jO^gGGjoaGh0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 2oAODYz^36IChYL@FAXgm2
+!i10b 1
+Ebram_single_macro
+R1
+R2
+R6
+R7
+R8
+Z21 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_SINGLE_MACRO.vhd
+Z22 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_SINGLE_MACRO.vhd
+l0
+L38
+Vzc1F<NYD7[5B::DXeG6P:3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 e03JRbkWET^]?i8Q@5zd[0
+!i10b 1
+Abram_v
+R2
+R6
+R7
+DEx4 work 17 bram_single_macro 0 22 zc1F<NYD7[5B::DXeG6P:3
+l1186
+L211
+VfODW5`cKiJ<LR]OoSdG=A3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 6aTIjTKeEEXbMZJcN3CiZ1
+!i10b 1
+Ebram_tdp_macro
+R1
+R2
+R6
+R7
+R8
+Z23 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_TDP_MACRO.vhd
+Z24 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\BRAM_TDP_MACRO.vhd
+l0
+L36
+VAGZAS3B^6;FX4fohRJ2XV2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 5k0`@U4df7<l`MRG7X1fl0
+!i10b 1
+Abram_v
+R2
+R6
+R7
+DEx4 work 14 bram_tdp_macro 0 22 AGZAS3B^6;FX4fohRJ2XV2
+l1426
+L224
+VUOc5<<99>0hG=8:N::WUz1
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 GQ>XO97f6k2BV?nYHR6Fk0
+!i10b 1
+Ecounter_load_macro
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z25 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\COUNTER_LOAD_MACRO.vhd
+Z26 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\COUNTER_LOAD_MACRO.vhd
+l0
+L34
+V5Ygm9F;DKm>B6>eWh1HJO3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 b0<Z^gb=DG<]7KjZ7=ZMB0
+!i10b 1
+Acounter
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 18 counter_load_macro 0 22 5Ygm9F;DKm>B6>eWh1HJO3
+l144
+L53
+V=CC5Z2V<TPSRT^_C7jiA@2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 C0GVCmW]Y[`ZaO35k_[4U0
+!i10b 1
+Ecounter_tc_macro
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z27 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\COUNTER_TC_MACRO.vhd
+Z28 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\COUNTER_TC_MACRO.vhd
+l0
+L35
+VaL33YEhoRZODz69jDB_O33
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 D?1z=7?2217nBlk741l7V2
+!i10b 1
+Acount
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 counter_tc_macro 0 22 aL33YEhoRZODz69jDB_O33
+l174
+L55
+V0SAFl>^`oK2k>Ij5`O6b[1
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 C1f9_ImN^cQh^boV09nhP3
+!i10b 1
+Eeq_compare_macro
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z29 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\EQ_COMPARE_MACRO.vhd
+Z30 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\EQ_COMPARE_MACRO.vhd
+l0
+L34
+VW_`e3hCnonN8Z2a0QogIV3
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 4Me25lY1F0_dWP<loJN^F3
+!i10b 1
+Acompare
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 eq_compare_macro 0 22 W_`e3hCnonN8Z2a0QogIV3
+l201
+L55
+VFNDgUFL?:=cQKYEXERcd41
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 ^_kMh8E4WK<>o1C9loHja1
+!i10b 1
+Efifo_dualclock_macro
+R1
+R2
+R5
+R6
+R7
+R8
+Z31 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\FIFO_DUALCLOCK_MACRO.vhd
+Z32 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\FIFO_DUALCLOCK_MACRO.vhd
+l0
+L34
+VV>ScHbN5cIWXCSA_Y:=zQ0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 ORS<^1KiHjHEoY9JW_[461
+!i10b 1
+Afifo_v
+R2
+R5
+R6
+R7
+DEx4 work 20 fifo_dualclock_macro 0 22 V>ScHbN5cIWXCSA_Y:=zQ0
+l594
+L68
+VMXC3`n[4;S@DUcz2M;Rz72
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 _D6>_Ik^lg45C8hO_HY>?3
+!i10b 1
+Efifo_sync_macro
+R1
+R2
+R5
+R6
+R7
+R8
+Z33 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\FIFO_SYNC_MACRO.vhd
+Z34 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\FIFO_SYNC_MACRO.vhd
+l0
+L34
+V75`6caOW5g9dGV;ZL5m<G0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 9BjHAJ4?NRLSCeom:Y3^?1
+!i10b 1
+Afifo_v
+R2
+R5
+R6
+R7
+DEx4 work 15 fifo_sync_macro 0 22 75`6caOW5g9dGV;ZL5m<G0
+l594
+L67
+V9mdBKmk8Lmbga6zSEVSoT2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 GD@9lU1in9?iCi1M;@GIc0
+!i10b 1
+Emacc_macro
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z35 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\MACC_MACRO.vhd
+Z36 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\MACC_MACRO.vhd
+l0
+L35
+V2jYNfJVb8T9EGCZ?_[?222
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 JdiWhSDJgLlhcm406=68X2
+!i10b 1
+Amacc
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 macc_macro 0 22 2jYNfJVb8T9EGCZ?_[?222
+l268
+L58
+Vg3XLf54hA;9gU6ZE2;1c;1
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 8>c4fJPJdSJV2k>2h4b8N3
+!i10b 1
+Emult_macro
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z37 8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\MULT_MACRO.vhd
+Z38 FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\MULT_MACRO.vhd
+l0
+L36
+VLA?RJioB<cm]kzi5WcZ7B0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 CFESF_lbnPWm]4^AJT0^O2
+!i10b 1
+Amult
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 mult_macro 0 22 LA?RJioB<cm]kzi5WcZ7B0
+l267
+L55
+VW7hHX[CYASE@kQ8kYZJX72
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 7mU2]C>@I@jo`LEQRe4;]3
+!i10b 1
+Pvcomponents
+R6
+R7
+R1
+R8
+8C:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\unimacro_VCOMP.vhd
+FC:\Xilinx\14.7\ISE_DS\ISE\vhdl\src\unimacro\unimacro_VCOMP.vhd
+l0
+L13
+VeIKX=W:[HG`df9[_o:;AW0
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 i2;TnmbZSKSn8afjPJ2i<2
+!i10b 1

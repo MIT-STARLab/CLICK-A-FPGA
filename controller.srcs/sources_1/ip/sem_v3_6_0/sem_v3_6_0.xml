@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>sem_v3_6_0</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_miscfiles</spirit:name>
+        <spirit:displayName>Miscellaneous</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:misc.files</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_miscfiles_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>customizationCRC</spirit:name>
+            <spirit:value>1753977327</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>customizationCRCversion</spirit:name>
+            <spirit:value>1</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>customizationCRC</spirit:name>
+            <spirit:value>1753977327</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>customizationCRCversion</spirit:name>
+            <spirit:value>1</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguageinstantiationtemplate</spirit:name>
+        <spirit:displayName>Instantiation Template</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis.template</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguageinstantiationtemplate_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>customizationCRC</spirit:name>
+            <spirit:value>1753977327</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>customizationCRCversion</spirit:name>
+            <spirit:value>1</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>customizationCRC</spirit:name>
+            <spirit:value>1753977327</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>customizationCRCversion</spirit:name>
+            <spirit:value>1</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>status_heartbeat</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_initialization</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_observation</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_correction</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_classification</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_injection</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_essential</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>status_uncorrectable</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_txdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_txwrite</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_txfull</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_rxdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_rxread</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_rxempty</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fetch_tbladdr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 3))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>monitor_txdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>monitor_txwrite</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>monitor_txfull</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>monitor_rxdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>monitor_rxread</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>monitor_rxempty</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>inject_strobe</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 4) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 5))">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>inject_address</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_EIPWIDTH&apos;))-1">35</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 1) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 2) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 4) or (spirit:decode(id(&apos;MODELPARAM_VALUE.C_HARDWARE_CFG&apos;)) = 5))">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_busy</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;spartan6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;spartan6l&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qspartan6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qspartan6l&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;aspartan6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;virtex6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;virtex6l&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qvirtex6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qvirtex6l&quot;))">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_ICAPWIDTH&apos;))-1">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_csb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;spartan6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;spartan6l&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qspartan6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qspartan6l&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;aspartan6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;virtex6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;virtex6l&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qvirtex6&quot;) or ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) = &quot;qvirtex6l&quot;))">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_csib</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;virtex6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;virtex6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qvirtex6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qvirtex6l&quot;))">false</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_rdwrb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_i</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_ICAPWIDTH&apos;))-1">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_clk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_request</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>icap_grant</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_crcerr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_eccerr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_eccerrsingle</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_syndromevalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_syndrome</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">12</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_far</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_FARWIDTH&apos;))-1">23</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_synbit</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">4</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>fecc_synword</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">6</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:presence>optional</xilinx:presence>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:dependency="( ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;spartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;qspartan6l&quot;) and ((id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;)) != &quot;aspartan6&quot;) )">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="string">
+        <spirit:name>c_xdevice</spirit:name>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_XDEVICE">uninit</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="string">
+        <spirit:name>c_xpackage</spirit:name>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_XPACKAGE">uninit</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="string">
+        <spirit:name>c_xspeedgrade</spirit:name>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_XSPEEDGRADE">uninit</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="string">
+        <spirit:name>c_xdevicefamily</spirit:name>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_XDEVICEFAMILY">uninit</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="string">
+        <spirit:name>c_family</spirit:name>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_FAMILY">virtex6</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_device_array</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DEVICE_ARRAY">4</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_icapwidth</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ICAPWIDTH">16</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_eipwidth</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_EIPWIDTH">36</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_farwidth</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_FARWIDTH">24</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="string">
+        <spirit:name>c_component_name</spirit:name>
+        <spirit:value spirit:format="string" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_COMPONENT_NAME">uninit</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_clock_per</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_CLOCK_PER">15152</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_feature_set</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_FEATURE_SET">2</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_hardware_cfg</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_HARDWARE_CFG">4</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_software_cfg</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SOFTWARE_CFG">2</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>b_debug</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.B_DEBUG">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>b_cosim</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.B_COSIM">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>b_dfset</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.B_DFSET">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="boolean">
+        <spirit:name>b_gen_user_app</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.B_GEN_USER_APP">false</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_scan_start_addr</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SCAN_START_ADDR">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_scan_end_addr</spirit:name>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_SCAN_END_ADDR">0</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>xippack_UserParameter_choiceref_CORRECTION_METHOD</spirit:name>
+      <spirit:enumeration spirit:text="Repair">repair</spirit:enumeration>
+      <spirit:enumeration spirit:text="Enhanced Repair">enhanced_repair</spirit:enumeration>
+      <spirit:enumeration spirit:text="Replace">replace</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>xippack_UserParameter_choiceref_INJECTION_SHIM</spirit:name>
+      <spirit:enumeration spirit:text="chipscope">chipscope</spirit:enumeration>
+      <spirit:enumeration spirit:text="pins">pins</spirit:enumeration>
+      <spirit:enumeration spirit:text="none">none</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>xippack_UserParameter_choiceref_RETRIEVAL_SHIM</spirit:name>
+      <spirit:enumeration spirit:text="spi flash x1">spi_flash_x1</spirit:enumeration>
+      <spirit:enumeration spirit:text="none">none</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_miscfiles_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0.xco</spirit:name>
+        <spirit:userFileType>xco</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0.asy</spirit:name>
+        <spirit:userFileType>asy</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0_xmdf.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0.ngc</spirit:name>
+        <spirit:userFileType>ngc</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguageinstantiationtemplate_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0.vho</spirit:name>
+        <spirit:userFileType>vhdlTemplate</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>sem_v3_6_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>The Xilinx Soft Error Mitigation IP solution provides a pre-verified design which can detect and optionally correct and classify soft errors in Configuration Memory.  A soft error is an unintended change to the state of memory bits caused by ionizing radiation.  The solution does not prevent soft errors; rather, it provides users with a method to better manage the system-level effects of these events.  Intelligent management of these events can increase reliability and availability, and reduce system maintenance and downtime costs.</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>ENABLE_INJECTION</spirit:name>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_INJECTION" spirit:order="2">true</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ENABLE_CORRECTION</spirit:name>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_CORRECTION" spirit:order="3">true</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CORRECTION_METHOD</spirit:name>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.CORRECTION_METHOD" spirit:choiceRef="xippack_UserParameter_choiceref_CORRECTION_METHOD" spirit:order="4">repair</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ENABLE_CLASSIFICATION</spirit:name>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_CLASSIFICATION" spirit:order="5">false</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>INJECTION_SHIM</spirit:name>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.INJECTION_SHIM" spirit:choiceRef="xippack_UserParameter_choiceref_INJECTION_SHIM" spirit:order="6">pins</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>RETRIEVAL_SHIM</spirit:name>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.RETRIEVAL_SHIM" spirit:choiceRef="xippack_UserParameter_choiceref_RETRIEVAL_SHIM" spirit:order="7">none</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CLOCK_FREQ</spirit:name>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.CLOCK_FREQ" spirit:order="8" spirit:minimum="1" spirit:maximum="1000000" spirit:rangeType="float">48</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>COMPONENT_NAME</spirit:name>
+      <spirit:value spirit:format="string" spirit:resolve="user" spirit:id="PARAM_VALUE.COMPONENT_NAME" spirit:order="1">sem_v3_6_0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ENABLE_TOP_GT_SCAN</spirit:name>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_TOP_GT_SCAN" spirit:order="1.5">true</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ENABLE_BOTTOM_GT_SCAN</spirit:name>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.ENABLE_BOTTOM_GT_SCAN" spirit:order="1.6">true</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">aartix7{xa7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">qartix7{xq7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">qartix7l{xq7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">artix7l{xc7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">artix7{xc7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">virtex7l{xc7v(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">virtex7{xc7v(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">kintex7l{xc7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">kintex7{xc7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">qvirtex7l{xq7v(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">qvirtex7{xq7v(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">qkintex7l{xq7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">qkintex7{xq7k(.*)}</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>/FPGA_Features_and_Design/Soft_Error_Mitigation</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>Soft Error Mitigation</xilinx:displayName>
+      <xilinx:vendorURL>http://www.xilinx.com/products/intellectual-property/SEM.htm</xilinx:vendorURL>
+      <xilinx:coreCreationDateTime>2017-09-26T17:29:26</xilinx:coreCreationDateTime>
+    </xilinx:coreExtensions>
+    <xilinx:coreProperties>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Production">virtex6{xc6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtex6l{xc6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">spartan6{xc6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">spartan6l{xc6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtex7{xc7v((x330)|(x415)|(x485)|(x550)|(585)|(x690)|(x980))t(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7l{xc7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7{xc7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aspartan6{xa6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qspartan6{xq6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qspartan6l{xq6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qvirtex6l{xq6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qvirtex6{xq6(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qvirtex7{xq7v((x330)|(x485)|(585)|(x690)|(x980))t(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qkintex7l{xq7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qkintex7{xq7k(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7{xc7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aartix7{xa7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7l{xc7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qartix7{xq7a(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynq{xc7z(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">azynq{xa7z(.*)}</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">qzynq{xq7z(.*)}</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:customization>
+        <xilinx:customizer>Spirit</xilinx:customizer>
+        <xilinx:elaborator>Sim</xilinx:elaborator>
+        <xilinx:customizationTarget>sem_v3.4.class</xilinx:customizationTarget>
+        <xilinx:guiType>Cpp</xilinx:guiType>
+        <xilinx:coreMixedCaseComponentName>false</xilinx:coreMixedCaseComponentName>
+      </xilinx:customization>
+      <xilinx:generation>
+        <xilinx:generationFlow>Spirit</xilinx:generationFlow>
+        <xilinx:keepCfamilyInCoreWrapperHdl>true</xilinx:keepCfamilyInCoreWrapperHdl>
+        <xilinx:keepCxdevicefamilyInCoreWrapperHdl>true</xilinx:keepCxdevicefamilyInCoreWrapperHdl>
+        <xilinx:overrideSimulationFiles>Structural</xilinx:overrideSimulationFiles>
+        <xilinx:synthesisRunOptions>
+          <xilinx:option xilinx:resolve="immediate">-opt_mode area</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-opt_level 2</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-lc area</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-shreg_extract no</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-register_duplication no</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-equivalent_register_removal yes</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-iob false</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-iobuf no</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-bufg 0</xilinx:option>
+          <xilinx:option xilinx:resolve="immediate">-write_timing_constraints no</xilinx:option>
+        </xilinx:synthesisRunOptions>
+      </xilinx:generation>
+      <xilinx:licensing/>
+      <xilinx:display>
+        <xilinx:displayName>Soft Error Mitigation</xilinx:displayName>
+        <xilinx:ipType>Spirit</xilinx:ipType>
+        <xilinx:coreCreationDateTime>2017-09-26T17:29:26</xilinx:coreCreationDateTime>
+        <xilinx:companyURL>http://www.xilinx.com/products/intellectual-property/SEM.htm</xilinx:companyURL>
+        <xilinx:taxonomies>
+          <xilinx:taxonomy>/FPGA_Features_and_Design/Soft_Error_Mitigation</xilinx:taxonomy>
+        </xilinx:taxonomies>
+        <xilinx:readMeFile>%component_name%/sem_v3_6_readme.txt</xilinx:readMeFile>
+      </xilinx:display>
+    </xilinx:coreProperties>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

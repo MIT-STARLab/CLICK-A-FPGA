@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="sem_v3_6_0">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Tue Sep 26 21:29:25 GMT 2017" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./model_parameter_resolution_generator.xlog" type="ignore" timestamp="Tue Sep 26 21:29:25 GMT 2017" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./sem_v3_6_0.xco" type="xco" timestamp="Tue Sep 26 21:27:57 GMT 2017" checksum="0xEFDE55EB"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./sem_v3_6_0/doc/pg036_sem.pdf" type="ignore" timestamp="Sun Oct 13 18:13:16 GMT 2013" checksum="0xCC58FB1F"></File>
+        <File name="./sem_v3_6_0/sem_v3_6_readme.txt" type="ignore" timestamp="Sun Oct 13 18:13:16 GMT 2013" checksum="0x61504DFB"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_cfg.vhd" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0x1095B2A2"></File>
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_example.ucf" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0x2815A87F"></File>
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_example.vhd" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0x99BFE5DA"></File>
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_mon.vhd" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0x0A2306DD"></File>
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_mon_fifo.vhd" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0x4771BA5C"></File>
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_mon_piso.vhd" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0x422B477D"></File>
+        <File name="./sem_v3_6_0/example_design/sem_v3_6_0_sem_mon_sipo.vhd" type="ignore" timestamp="Tue Sep 26 21:28:00 GMT 2017" checksum="0xA8E92AFE"></File>
+        <File name="./sem_v3_6_0/implement/implement.bat" type="ignore" timestamp="Tue Sep 26 21:27:59 GMT 2017" checksum="0xADA37E30"></File>
+        <File name="./sem_v3_6_0/implement/implement.sh" type="ignore" timestamp="Tue Sep 26 21:27:59 GMT 2017" checksum="0x0B346635"></File>
+        <File name="./sem_v3_6_0/implement/xst.prj" type="ignore" timestamp="Tue Sep 26 21:27:59 GMT 2017" checksum="0x7BBD2047"></File>
+        <File name="./sem_v3_6_0/implement/xst.scr" type="ignore" timestamp="Tue Sep 26 21:27:59 GMT 2017" checksum="0xF6E560F8"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./sem_v3_6_0.ngc" type="ngc" timestamp="Tue Sep 26 21:28:58 GMT 2017" checksum="0x5323E44C"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Tue Sep 26 21:29:25 GMT 2017" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Tue Sep 26 21:29:25 GMT 2017" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./sem_v3_6_0.vho" type="vho" timestamp="Tue Sep 26 21:29:00 GMT 2017" checksum="0xD72FA380"></File>
+      </FileSet>
+      <FileSet generator="rtl_simulation_model_generator">
+        <File name="./sem_v3_6_0.vhd" type="vhdl" timestamp="Tue Sep 26 21:29:02 GMT 2017" checksum="0xD6DCEF94"></File>
+      </FileSet>
+      <FileSet generator="synthesis_instantiation_wrapper_generator">
+        <File name="./synthesis_instantiation_wrapper_generator.xlog" type="ignore" timestamp="Tue Sep 26 21:29:25 GMT 2017" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./sem_v3_6_0/doc/pg036_sem.pdf" type="ignore" timestamp="Tue Sep 26 21:29:03 GMT 2017" checksum="0xCC58FB1F"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./sem_v3_6_0.asy" type="asy" timestamp="Tue Sep 26 21:29:04 GMT 2017" checksum="0x707EBACF"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./sem_v3_6_0_xmdf.tcl" type="tclXmdf" timestamp="Tue Sep 26 21:29:04 GMT 2017" checksum="0xD724044F"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./sem_v3_6_0.gise" type="ignore" timestamp="Tue Sep 26 21:29:15 GMT 2017" checksum="0x25348B61"></File>
+        <File name="./sem_v3_6_0.xise" type="ignore" timestamp="Tue Sep 26 21:29:14 GMT 2017" checksum="0xAFCB740F"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./sem_v3_6_0.gise" type="ignore" timestamp="Tue Sep 26 21:29:21 GMT 2017" checksum="0x36DF6C91"></File>
+        <File name="./sem_v3_6_0.xise" type="ignore" timestamp="Tue Sep 26 21:29:21 GMT 2017" checksum="0x33E47B38"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Tue Sep 26 21:29:25 GMT 2017" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./sem_v3_6_0_flist.txt" type="ignore" timestamp="Tue Sep 26 21:29:23 GMT 2017" checksum="0x0F1DFDA5"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

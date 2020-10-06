@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=Z:\HDL\Repo\node-fpga_mitfork\controller\controller.runs\impl_5\top_level_routed.ncd
+OUTFILE=Z:\HDL\Repo\node-fpga_mitfork\controller\controller.runs\impl_5\top_level.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=Z:\HDL\Repo\node-fpga_mitfork\controller\controller.runs\impl_5
+LICENSE=WebPack
+USER_INFO=211239685_0_0_551

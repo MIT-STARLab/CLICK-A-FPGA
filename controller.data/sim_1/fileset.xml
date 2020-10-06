@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sim_1/new/SPI_state.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sim_1/new/SPI_state.vhd"/>
+        <Attr Name="ImportTime" Val="1489445150"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/SPI_rd.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/SPI_pulse.vhd">
+      <FileInfo RelPath="SPI_pulse.vhd">
+        <Attr Name="ImportPath" Val="$PSRCDIR/sim_1/new/SPI_pulse.vhd"/>
+        <Attr Name="ImportTime" Val="1489444903"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../PlanAhead/project_1/project_1.srcs/sim_1/new/tb_controller.vhd"/>
+        <Attr Name="ImportTime" Val="1485209699"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sim_1/new/tb_uart.vhd"/>
+        <Attr Name="ImportTime" Val="1487867578"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_modulator.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_fifo48200.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_ppm_mod.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_modulator_top_level.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/testCtrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/testLibrary.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sim_1/new/tb_controller_transactions.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tb_controller_transactions"/>
+      <Option Name="SrcSet" Val="sources_1"/>
+      <Option Name="NGOutputHDLFormat" Val="vhdl"/>
+    </Config>
+  </FileSet>
+</DARoots>

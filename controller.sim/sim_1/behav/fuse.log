@@ -1,0 +1,108 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle pa -incremental -L work -L secureip -o tb_controller_transactions.exe --prj C:/Users/nn_w7/Desktop/Controller/controller.sim/sim_1/behav/tb_controller_transactions.prj -top work.tb_controller_transactions 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/uart_parity.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/uart_tx.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/uart_rx.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/nodeLibrary.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/memoryMapLibrary.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/uartOC.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/SPI3.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/SPI2.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/SPI1.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/registerFile.vhd" into library work
+Parsing VHDL file "c:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/ip/clk_wiz_v3_6_0/clk_wiz_v3_6_0.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/ppm_mod.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/var_delay.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/sig_sync.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/checker.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/modulator.vhd" into library work
+Parsing VHDL file "c:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/ip/fifo_generator_v9_3_0/fifo_generator_v9_3_0.vhd" into library work
+Parsing VHDL file "c:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/ip/fifo_generator_v9_3_1/fifo_generator_v9_3_1.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/modulator_top_level.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/controller.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/comm_fpga_fx2.vhdl" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/new/top_level.vhdl" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/SPI_state.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/SPI_rd.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/SPI_pulse.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_controller.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_uart.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_modulator.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_fifo48200.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_ppm_mod.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_modulator_top_level.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/testLibrary.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/testCtrl.vhd" into library work
+Parsing VHDL file "C:/Users/nn_w7/Desktop/Controller/controller.srcs/sim_1/new/tb_controller_transactions.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package nodelibrary
+Compiling package memorymaplibrary
+Compiling package testlibrary
+Compiling package vcomponents
+Compiling package vcomponents
+Compiling architecture behavioral of entity registerFile [registerfile_default]
+Compiling architecture behavioral of entity SPI1 [spi1_default]
+Compiling architecture behavioral of entity SPI2 [spi2_default]
+Compiling architecture behavioral of entity SPI3 [spi3_default]
+Compiling architecture full of entity UART_TX [\UART_TX("none")(1,4)\]
+Compiling architecture full of entity UART_RX [\UART_RX("none")(1,4)\]
+Compiling architecture full of entity UART [uart_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture xilinx of entity clk_wiz_v3_6_0 [clk_wiz_v3_6_0_default]
+Compiling architecture rtl of entity ppm_mod [\ppm_mod(8)\]
+Compiling architecture rtl of entity var_delay [\var_delay(8,256)\]
+Compiling architecture rtl of entity sig_sync [\sig_sync(2)\]
+Compiling architecture behavioural of entity checker [\checker(64)\]
+Compiling architecture behavioral of entity modulator [modulator_default]
+Compiling architecture behavioral of entity fifo_generator_v9_3_bhv_as [\fifo_generator_v9_3_bhv_as(8,"0...]
+Compiling architecture behavioral of entity fifo_generator_v9_3_bhv_preload0 [\fifo_generator_v9_3_bhv_preload...]
+Compiling architecture behavioral of entity fifo_generator_v9_3_conv [\fifo_generator_v9_3_conv(0,0,11...]
+Compiling architecture behavioral of entity fifo_generator_v9_3 [\fifo_generator_v9_3(0,0,11,"Bla...]
+Compiling architecture fifo_generator_v9_3_0_a of entity fifo_generator_v9_3_0 [fifo_generator_v9_3_0_default]
+Compiling architecture behavioral of entity fifo_generator_v9_3_bhv_as [\fifo_generator_v9_3_bhv_as(8,"0...]
+Compiling architecture behavioral of entity fifo_generator_v9_3_conv [\fifo_generator_v9_3_conv(0,0,11...]
+Compiling architecture behavioral of entity fifo_generator_v9_3 [\fifo_generator_v9_3(0,0,11,"Bla...]
+Compiling architecture fifo_generator_v9_3_1_a of entity fifo_generator_v9_3_1 [fifo_generator_v9_3_1_default]
+Compiling architecture behavioral of entity modulator_top_level [modulator_top_level_default]
+Compiling architecture structural of entity controller [controller_default]
+Compiling architecture behavioral of entity testCtrl [testctrl_default]
+Compiling architecture behavioral of entity SPI_state [\SPI_state(24)\]
+Compiling architecture behavioral of entity SPI_state [\SPI_state(16)\]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture behavioral of entity SPI_rd [\SPI_rd(('1','0','1','0','0','0'...]
+Compiling architecture structural of entity tb_controller_transactions
+Time Resolution for simulation is 1ps.
+Waiting for 53 sub-compilation(s) to finish...
+Compiled 105 VHDL Units
+Built simulation executable tb_controller_transactions.exe
+Fuse Memory Usage: 64508 KB
+Fuse CPU Usage: 2089 ms

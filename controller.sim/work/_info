@@ -1,0 +1,878 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech64_10.1c\examples
+T_opt
+VZ8l9PJPMBYe<5FBT4g^9N1
+04 13 10 work tb_controller structural 1
+=1-64510608b0f2-591b5a21-327-acc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 n@_opt
+Z2 OL;O;10.1c;51
+Z3 dC:\modeltech64_10.1c\examples
+Ecomm_fpga_fx2
+Z4 w1484849218
+Z5 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dC:\Users\nn\Docs\RA\Design\HDL\Repo\node-fpga_mitfork\controller\controller.sim
+Z9 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/comm_fpga_fx2.vhdl
+Z10 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/comm_fpga_fx2.vhdl
+l0
+L22
+VMD8JU^e];DR<[8n?dT:0n1
+Z11 OL;C;10.1c;51
+32
+Z12 !s108 1494965059.102000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/comm_fpga_fx2.vhdl|
+Z14 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/comm_fpga_fx2.vhdl|
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1
+!s100 G_j1<:aNKbV<@6Nzg_dbY0
+!i10b 1
+Artl
+R5
+R6
+R7
+Z17 DEx4 work 13 comm_fpga_fx2 0 22 MD8JU^e];DR<[8n?dT:0n1
+l84
+L56
+V`CM7KzBCLIClHPD82c:3>3
+R11
+32
+R12
+R13
+R14
+R15
+R16
+!s100 QgilV0z>]]TAE[SUCaPFd0
+!i10b 1
+Econtroller
+Z18 w1494535157
+Z19 DPx6 unisim 11 vcomponents 0 22 ^SgSiH]fe0j`VL_8Rhmkj2
+Z20 DPx8 unimacro 11 vcomponents 0 22 eIKX=W:[HG`df9[_o:;AW0
+Z21 DPx4 work 11 nodelibrary 0 22 XKQI]S9212zXbjI]ZzN=23
+R6
+R7
+R8
+Z22 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/controller.vhd
+Z23 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/controller.vhd
+l0
+L42
+VJdC9LBMA2`_YOEVDe?KHC0
+R11
+32
+Z24 !s108 1494965059.183000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/controller.vhd|
+Z26 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/controller.vhd|
+R15
+R16
+!s100 i3l^PAgjhMCU8@zaiKbOR3
+!i10b 1
+Astructural
+Z27 DEx4 work 8 sem_cont 0 22 RW7mVHbU>k<o3o6RHU9bI2
+Z28 DEx4 work 3 pid 0 22 @HV[T@W^fa9@5C;mA:iCV3
+Z29 DEx4 work 4 uart 0 22 @c;BE:6K;da:P5@><I;Vg3
+Z30 DEx4 work 4 spi3 0 22 <D]4hBgdh1];m?S5G]G^T0
+Z31 DEx4 work 4 spi2 0 22 JBXfaZfiIYhYn9RJeimRm2
+Z32 DEx4 work 4 spi1 0 22 <YNGNe4:eKk<XRA3M=?O]2
+Z33 DPx4 work 16 memorymaplibrary 0 22 fLn68D^P6T[JHzO8l0=R<2
+Z34 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z35 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R5
+Z36 DEx4 work 12 registerfile 0 22 BC7O2I5`EbkNQY3BcNGcn2
+R19
+R20
+R21
+R6
+R7
+Z37 DEx4 work 10 controller 0 22 JdC9LBMA2`_YOEVDe?KHC0
+l129
+L74
+VHjLAkeTj1;eaO3=;dhNoT2
+R11
+32
+R24
+R25
+R26
+R15
+R16
+!s100 a[5@LgBWmPYj3lPPSnMS53
+!i10b 1
+Pmemorymaplibrary
+R6
+R7
+w1493692265
+R8
+8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/memoryMapLibrary.vhd
+FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/memoryMapLibrary.vhd
+l0
+L3
+VfLn68D^P6T[JHzO8l0=R<2
+R11
+32
+R15
+R16
+!s100 DQb4?MV1z0ekhgnnMgGbh0
+!i10b 1
+!s108 1494965059.471000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/memoryMapLibrary.vhd|
+!s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/memoryMapLibrary.vhd|
+Pnodelibrary
+R6
+R7
+w1493616766
+R8
+8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/nodeLibrary.vhd
+FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/nodeLibrary.vhd
+l0
+L34
+VXKQI]S9212zXbjI]ZzN=23
+R11
+32
+R15
+R16
+!s100 4fG>zN8fYJ3aTOKYT0dN?2
+!i10b 1
+!s108 1494965059.551000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/nodeLibrary.vhd|
+!s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/nodeLibrary.vhd|
+Epid
+Z38 w1487585164
+R34
+R35
+R6
+R7
+R8
+Z39 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/PID.vhd
+Z40 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/PID.vhd
+l0
+L35
+V@HV[T@W^fa9@5C;mA:iCV3
+R11
+32
+Z41 !s108 1494965059.625000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/PID.vhd|
+Z43 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/PID.vhd|
+R15
+R16
+!s100 d82JYC4V[Ok7UaL8_CQh91
+!i10b 1
+Abehavioral
+R34
+R35
+R6
+R7
+R28
+l47
+L45
+Ve<i3eDYd9m8SbcN03l83n1
+R11
+32
+R41
+R42
+R43
+R15
+R16
+!s100 gnf]5K0K>:GVL^PI<mQ740
+!i10b 1
+Eregisterfile
+Z44 w1494529754
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R8
+Z45 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/registerFile.vhd
+Z46 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/registerFile.vhd
+l0
+L29
+VBC7O2I5`EbkNQY3BcNGcn2
+R11
+32
+Z47 !s108 1494965059.714000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/registerFile.vhd|
+Z49 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/registerFile.vhd|
+R15
+R16
+!s100 2BI5jZ>LVA^TjDKGTFISM3
+!i10b 1
+Abehavioral
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R36
+l74
+L61
+VY[P@m@zUYA`5ck3?`DeIJ3
+R11
+32
+R47
+R48
+R49
+R15
+R16
+!s100 4@Tzn7Qoo6^XOUJGF]lK>3
+!i10b 1
+Esem_cont
+Z50 w1493616728
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R8
+Z51 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SEM_CONT.vhd
+Z52 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SEM_CONT.vhd
+l0
+L39
+VRW7mVHbU>k<o3o6RHU9bI2
+R11
+32
+Z53 !s108 1494965059.859000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SEM_CONT.vhd|
+Z55 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SEM_CONT.vhd|
+R15
+R16
+!s100 Ek0XTgSmFWDl:F[f:2;Y?3
+!i10b 1
+Abehavioral
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R27
+l54
+L52
+Vg<IceoS^Y]]EhE^AElRGR1
+R11
+32
+R53
+R54
+R55
+R15
+R16
+!s100 zVFdB]Z<VAC<SeE^K@W=81
+!i10b 1
+Esem_v3_6_0
+Z56 w1493576846
+Z57 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z58 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z59 DPx6 unisim 4 vpkg 0 22 i7lFIK8QZNa5dJW2O6MPS2
+R19
+R6
+R7
+R8
+Z60 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/sem_v3_6_0.vhd
+Z61 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/sem_v3_6_0.vhd
+l0
+L43
+VW:07d;i:W_1flBSUb`_4e2
+!s100 OEz<S>oaHJ6@B:C^nZQW`1
+R11
+32
+!i10b 1
+Z62 !s108 1494965061.487000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/sem_v3_6_0.vhd|
+Z64 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/ip/sem_v3_6_0/sem_v3_6_0.vhd|
+R15
+R16
+Astructure
+R57
+R58
+R59
+R19
+R6
+R7
+DEx4 work 10 sem_v3_6_0 0 22 W:07d;i:W_1flBSUb`_4e2
+l1943
+L72
+V1g7MIn==0jA1WmXh7;[iH3
+!s100 0FWeS;M?P[j01]YAUk1863
+R11
+32
+!i10b 1
+R62
+R63
+R64
+R15
+R16
+Espi1
+Z65 w1489444817
+R5
+R34
+R35
+R6
+R7
+R8
+Z66 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI1.vhd
+Z67 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI1.vhd
+l0
+L35
+V<YNGNe4:eKk<XRA3M=?O]2
+R11
+32
+Z68 !s108 1494965059.974000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI1.vhd|
+Z70 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI1.vhd|
+R15
+R16
+!s100 6l0CzGJJ@m21BN1nla=dP0
+!i10b 1
+Abehavioral
+R5
+R34
+R35
+R6
+R7
+R32
+l63
+L47
+V[JDTWQVJC9m>oU_:JVg063
+R11
+32
+R68
+R69
+R70
+R15
+R16
+!s100 ne6?:M53I5YZP[Qa2h4RN1
+!i10b 1
+Espi2
+Z71 w1489531220
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R8
+Z72 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI2.vhd
+Z73 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI2.vhd
+l0
+L37
+VJBXfaZfiIYhYn9RJeimRm2
+R11
+32
+Z74 !s108 1494965060.061000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI2.vhd|
+Z76 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI2.vhd|
+R15
+R16
+!s100 SO2RnW5GYg0PRJU=Wz^JP0
+!i10b 1
+Abehavioral
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R31
+l58
+L50
+VYTb1[5hNIYS3jz5R7g^5z3
+R11
+32
+R74
+R75
+R76
+R15
+R16
+!s100 hoEa;=B4KJiG1cK=`33df0
+!i10b 1
+Espi3
+Z77 w1489421844
+R5
+R34
+R35
+R6
+R7
+R8
+Z78 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI3.vhd
+Z79 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI3.vhd
+l0
+L36
+V<D]4hBgdh1];m?S5G]G^T0
+R11
+32
+Z80 !s108 1494965060.148000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI3.vhd|
+Z82 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/SPI3.vhd|
+R15
+R16
+!s100 :XjXZzd:CmJ7D`3kJbgaO1
+!i10b 1
+Abehavioral
+R5
+R34
+R35
+R6
+R7
+R30
+l58
+L46
+V:0XnE2a0NADWfTBTzoTZ[0
+R11
+32
+R80
+R81
+R82
+R15
+R16
+!s100 G1YX6TglVoo:3onmfJI9W0
+!i10b 1
+Espi_pulse
+Z83 w1489444903
+R34
+R35
+R6
+R7
+R8
+Z84 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_pulse.vhd
+Z85 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_pulse.vhd
+l0
+L13
+V]KFSI8F@5WB8D:iVfZK@f1
+R11
+32
+Z86 !s108 1494965060.966000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_pulse.vhd|
+Z88 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_pulse.vhd|
+R15
+R16
+!s100 SR=ET6[3;dF4M_`RYfKfR0
+!i10b 1
+Abehavioral
+R34
+R35
+R6
+R7
+Z89 DEx4 work 9 spi_pulse 0 22 ]KFSI8F@5WB8D:iVfZK@f1
+l28
+L26
+VAjOI3N=2WR2YPUB]I8ol`2
+R11
+32
+R86
+R87
+R88
+R15
+R16
+!s100 AAmeSRICijh2PFYndld>Y3
+!i10b 1
+Espi_rd
+Z90 w1489690899
+R34
+R35
+R5
+R6
+R7
+R8
+Z91 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_rd.vhd
+Z92 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_rd.vhd
+l0
+L36
+V`4SemPACoIKJPWYzizVBN1
+R11
+32
+Z93 !s108 1494965061.047000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_rd.vhd|
+Z95 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_rd.vhd|
+R15
+R16
+!s100 PPzajPho`ll<MzPd0U]2z0
+!i10b 1
+Abehavioral
+R34
+R35
+R5
+R6
+R7
+Z96 DEx4 work 6 spi_rd 0 22 `4SemPACoIKJPWYzizVBN1
+l51
+L48
+VCh]Yha]I:6Vg<^^o2Pnjk2
+R11
+32
+R93
+R94
+R95
+R15
+R16
+!s100 FWf4^oCnJ6G7PeI8<L?mm0
+!i10b 1
+Espi_state
+Z97 w1489445150
+R34
+R35
+R6
+R7
+R8
+Z98 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_state.vhd
+Z99 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_state.vhd
+l0
+L13
+VVU16Lf9RZgCz:3MWfU]ch1
+R11
+32
+Z100 !s108 1494965061.133000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_state.vhd|
+Z102 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/SPI_state.vhd|
+R15
+R16
+!s100 `E0V6:GcY1PYW_D>J1<PQ1
+!i10b 1
+Abehavioral
+R34
+R35
+R6
+R7
+Z103 DEx4 work 9 spi_state 0 22 VU16Lf9RZgCz:3MWfU]ch1
+l27
+L26
+V^;GY2J>:J]VIjo0QkF?dm0
+R11
+32
+R100
+R101
+R102
+R15
+R16
+!s100 W_R`]:JfaLcDcGnFl[GRA0
+!i10b 1
+Etb_controller
+Z104 w1494533734
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+R8
+Z105 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_controller.vhd
+Z106 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_controller.vhd
+l0
+L40
+VWNR]D>7nbDlCXDk;aKD4a0
+R11
+32
+Z107 !s108 1494965061.215000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_controller.vhd|
+Z109 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_controller.vhd|
+R15
+R16
+!s100 ML<W6bYFMz8HfF[]V50FF0
+!i10b 1
+Astructural
+R29
+R96
+R103
+R89
+R19
+R20
+R37
+R33
+R21
+R34
+R35
+R5
+R6
+R7
+DEx4 work 13 tb_controller 0 22 WNR]D>7nbDlCXDk;aKD4a0
+l67
+L43
+VYkkkfo`OGac0fLcU<Ad@Y2
+!s100 IX?E1Mh]TO`0cALKNmF]O3
+R11
+32
+R107
+R108
+R109
+R15
+R16
+!i10b 1
+Etb_uart
+Z110 w1489327127
+R5
+R6
+R7
+R8
+Z111 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_uart.vhd
+Z112 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_uart.vhd
+l0
+L14
+V96lMZ3R]HZ07:LKBI7O2<0
+R11
+32
+Z113 !s108 1494510188.524000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_uart.vhd|
+Z115 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sim_1/new/tb_uart.vhd|
+R15
+R16
+!s100 JVmUA7K4;VWj::lUN`KSX2
+!i10b 1
+Afull
+R29
+R5
+R6
+R7
+DEx4 work 7 tb_uart 0 22 96lMZ3R]HZ07:LKBI7O2<0
+l37
+L17
+VVlZ4;2[[a6Gb0m5NmF?WR2
+R11
+32
+R113
+R114
+R115
+R15
+R16
+!s100 4l=SG0kCInLa_>@gWO@CP1
+!i10b 1
+Etop_level
+Z116 w1492722206
+R5
+R6
+R7
+R8
+Z117 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/top_level.vhdl
+Z118 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/top_level.vhdl
+l0
+L22
+V6F9mLhG1jD7M^iMAmE5kU3
+R11
+32
+Z119 !s108 1494965060.234000
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/top_level.vhdl|
+Z121 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/top_level.vhdl|
+R15
+R16
+!s100 A[>g^9P2n3bBoIL6X_mG]0
+!i10b 1
+Astructural
+Z122 DEx4 work 8 watchdog 0 22 N1HefWWz@7FI?4D=MfKYI1
+R19
+R20
+R21
+R37
+R17
+R5
+R6
+R7
+DEx4 work 9 top_level 0 22 6F9mLhG1jD7M^iMAmE5kU3
+l85
+L57
+Vf_dH;NT14XJ3I92RgTAU00
+R11
+32
+R119
+R120
+R121
+R15
+R16
+!s100 0fc1jnHJFhMU1G5>kX34U0
+!i10b 1
+Euart
+Z123 w1487871705
+R5
+R6
+R7
+R8
+Z124 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uartOC.vhd
+Z125 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uartOC.vhd
+l0
+L17
+V@c;BE:6K;da:P5@><I;Vg3
+R11
+32
+Z126 !s108 1494965060.787000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uartOC.vhd|
+Z128 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uartOC.vhd|
+R15
+R16
+!s100 2JROiTjaPobU:5>0iAXV72
+!i10b 1
+Afull
+Z129 DEx4 work 7 uart_rx 0 22 ==<J^H9JWE7eNDhLgPhV72
+Z130 DEx4 work 7 uart_tx 0 22 Jn0<jF:e83Hb<g@WKRDQ>2
+R5
+R6
+R7
+R29
+l49
+L40
+VKzZbFUzi>O=P74HeX[NC@0
+R11
+32
+R126
+R127
+R128
+R15
+R16
+!s100 Q80hZMk1DBmm52UIYJEzZ2
+!i10b 1
+Euart_parity
+Z131 w1464853738
+R5
+R6
+R7
+R8
+Z132 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_parity.vhd
+Z133 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_parity.vhd
+l0
+L14
+VS3R387UMfGS^=jcoJ@R6N0
+R11
+32
+Z134 !s108 1494965060.504000
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_parity.vhd|
+Z136 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_parity.vhd|
+R15
+R16
+!s100 S1=m>DHCZ=zzTlM^:[d8:1
+!i10b 1
+Afull
+R5
+R6
+R7
+Z137 DEx4 work 11 uart_parity 0 22 S3R387UMfGS^=jcoJ@R6N0
+l27
+L25
+V[W7KE:K62]cPmShZQ:OW80
+R11
+32
+R134
+R135
+R136
+R15
+R16
+!s100 42HcXM25kiP=N@A3O9iSn0
+!i10b 1
+Euart_rx
+R131
+R5
+R6
+R7
+R8
+Z138 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_rx.vhd
+Z139 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_rx.vhd
+l0
+L14
+V==<J^H9JWE7eNDhLgPhV72
+R11
+32
+Z140 !s108 1494965060.584000
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_rx.vhd|
+Z142 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_rx.vhd|
+R15
+R16
+!s100 3::4mo[gPE]z:F9dCgZR23
+!i10b 1
+Afull
+R137
+R5
+R6
+R7
+R129
+l49
+L31
+V9zJEDdNoc?kbA7YdX4o411
+R11
+32
+R140
+R141
+R142
+R15
+R16
+!s100 E;6UQl1S:d^?Q57GRj?<b3
+!i10b 1
+Euart_tx
+R131
+R5
+R6
+R7
+R8
+Z143 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_tx.vhd
+Z144 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_tx.vhd
+l0
+L14
+VJn0<jF:e83Hb<g@WKRDQ>2
+R11
+32
+Z145 !s108 1494965060.692000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_tx.vhd|
+Z147 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/uart_tx.vhd|
+R15
+R16
+!s100 VW7@@;i1M0DSP0Nee<0KP2
+!i10b 1
+Afull
+R137
+R5
+R6
+R7
+R130
+l47
+L31
+VNJ7XGmJ[@Jk>29eNChzEo0
+R11
+32
+R145
+R146
+R147
+R15
+R16
+!s100 Dj8cWe0_UTVoe38:J]oM[2
+!i10b 1
+Ewatchdog
+Z148 w1493665603
+R6
+R7
+R8
+Z149 8C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/watchdog.vhd
+Z150 FC:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/watchdog.vhd
+l0
+L33
+VN1HefWWz@7FI?4D=MfKYI1
+R11
+32
+Z151 !s108 1494965060.871000
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/watchdog.vhd|
+Z153 !s107 C:/Users/nn/Docs/RA/Design/HDL/Repo/node-fpga_mitfork/controller/controller.srcs/sources_1/new/watchdog.vhd|
+R15
+R16
+!s100 9nWS<F]3>jV1B=gbLVP:Z2
+!i10b 1
+Abehavioral
+R6
+R7
+R122
+l45
+L43
+V2?Xkf1D]N075N6_5UoA>_3
+R11
+32
+R151
+R152
+R153
+R15
+R16
+!s100 kJcf;O@N^z:<06lgai`RO2
+!i10b 1

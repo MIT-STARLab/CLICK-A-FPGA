@@ -1,0 +1,7 @@
+vhdl work "../example_design/sem_v3_6_0_sem_example.vhd"
+vhdl work "../example_design/sem_v3_6_0_sem_cfg.vhd"
+vhdl work "../example_design/sem_v3_6_0_sem_mon.vhd"
+vhdl work "../example_design/sem_v3_6_0_sem_mon_fifo.vhd"
+vhdl work "../example_design/sem_v3_6_0_sem_mon_piso.vhd"
+vhdl work "../example_design/sem_v3_6_0_sem_mon_sipo.vhd"
+vhdl work "../../sem_v3_6_0.vhd"

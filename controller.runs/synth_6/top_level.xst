@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn top_level.prj
+-top top_level
+-p xc6slx9tqg144-3
+-ofn top_level.ngc
+-sd {c:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/ip/fifo_generator_v9_3_0 c:/Users/nn_w7/Desktop/Controller/controller.srcs/sources_1/ip/fifo_generator_v9_3_1}
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

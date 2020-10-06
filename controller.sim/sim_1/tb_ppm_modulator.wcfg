@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ppm_mod1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_ppm_mod" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_ppm_mod/sysclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/dispclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dispclk</obj_property>
+      <obj_property name="ObjectShortName">dispclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/rst_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/slot_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slot_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">slot_in[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/slot_valid_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">slot_valid_in</obj_property>
+      <obj_property name="ObjectShortName">slot_valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/slot_ready_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">slot_ready_out</obj_property>
+      <obj_property name="ObjectShortName">slot_ready_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/ppm_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ppm_out</obj_property>
+      <obj_property name="ObjectShortName">ppm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/sym_sync_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sym_sync_out</obj_property>
+      <obj_property name="ObjectShortName">sym_sync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ppm_mod/status" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">status</obj_property>
+      <obj_property name="ObjectShortName">status</obj_property>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">Modulator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_ppm_mod/uut/rst_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst_in</obj_property>
+         <obj_property name="ObjectShortName">rst_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/clk_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_in</obj_property>
+         <obj_property name="ObjectShortName">clk_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_valid_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_valid_in</obj_property>
+         <obj_property name="ObjectShortName">slot_valid_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_ready_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_ready_out</obj_property>
+         <obj_property name="ObjectShortName">slot_ready_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/data_error" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_error</obj_property>
+         <obj_property name="ObjectShortName">data_error</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/mod_active" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mod_active</obj_property>
+         <obj_property name="ObjectShortName">mod_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/ppm_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ppm_out</obj_property>
+         <obj_property name="ObjectShortName">ppm_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/sym_sync_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sym_sync_out</obj_property>
+         <obj_property name="ObjectShortName">sym_sync_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/check_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">check_out</obj_property>
+         <obj_property name="ObjectShortName">check_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/state_next" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state_next</obj_property>
+         <obj_property name="ObjectShortName">state_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_sel_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_sel_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_sel_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_sel_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_sel_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_sel_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_accum_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_accum_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_accum_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_accum_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_accum_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_accum_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/count_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/count_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">count_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/m_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/m_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/g_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">g_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">g_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/g_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">g_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">g_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/acq_count_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">acq_count_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">acq_count_reg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/acq_count_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">acq_count_reg_next[4:0]</obj_property>
+         <obj_property name="ObjectShortName">acq_count_reg_next[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/acq_sequence4" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">acq_sequence4[0:15]</obj_property>
+         <obj_property name="ObjectShortName">acq_sequence4[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/acq_sequence8" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">acq_sequence8[0:15]</obj_property>
+         <obj_property name="ObjectShortName">acq_sequence8[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/acq_sequence16" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">acq_sequence16[0:15]</obj_property>
+         <obj_property name="ObjectShortName">acq_sequence16[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/ppm_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ppm_reg</obj_property>
+         <obj_property name="ObjectShortName">ppm_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/ppm_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ppm_reg_next</obj_property>
+         <obj_property name="ObjectShortName">ppm_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/sym_sync_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sym_sync_reg</obj_property>
+         <obj_property name="ObjectShortName">sym_sync_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/sym_sync_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sym_sync_reg_next</obj_property>
+         <obj_property name="ObjectShortName">sym_sync_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/symbol" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">symbol[7:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/symbol_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">symbol_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/got_data" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">got_data</obj_property>
+         <obj_property name="ObjectShortName">got_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/got_data_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">got_data_next</obj_property>
+         <obj_property name="ObjectShortName">got_data_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/load_count_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_count_reg[3:0]</obj_property>
+         <obj_property name="ObjectShortName">load_count_reg[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/load_count_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">load_count_reg_next[3:0]</obj_property>
+         <obj_property name="ObjectShortName">load_count_reg_next[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/syms" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">syms[1:0]</obj_property>
+         <obj_property name="ObjectShortName">syms[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/syms_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">syms_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">syms_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/syms_data_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">syms_data_reg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">syms_data_reg[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/syms_data_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">syms_data_reg_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">syms_data_reg_next[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/mod_sym_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mod_sym_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mod_sym_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/mod_sym_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mod_sym_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mod_sym_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/check_count_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">check_count_reg[6:0]</obj_property>
+         <obj_property name="ObjectShortName">check_count_reg[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/check_count_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">check_count_reg_next[6:0]</obj_property>
+         <obj_property name="ObjectShortName">check_count_reg_next[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/data_error_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_error_reg</obj_property>
+         <obj_property name="ObjectShortName">data_error_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/data_error_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_error_reg_next</obj_property>
+         <obj_property name="ObjectShortName">data_error_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/mod_active_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mod_active_reg</obj_property>
+         <obj_property name="ObjectShortName">mod_active_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/mod_active_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mod_active_reg_next</obj_property>
+         <obj_property name="ObjectShortName">mod_active_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/invalid_data_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">invalid_data_reg</obj_property>
+         <obj_property name="ObjectShortName">invalid_data_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/invalid_data_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">invalid_data_reg_next</obj_property>
+         <obj_property name="ObjectShortName">invalid_data_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_data_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_data_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_data_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_data_reg_next" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_data_reg_next[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slot_data_reg_next[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_valid_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_valid_reg</obj_property>
+         <obj_property name="ObjectShortName">slot_valid_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_valid_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_valid_reg_next</obj_property>
+         <obj_property name="ObjectShortName">slot_valid_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_ready_reg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_ready_reg</obj_property>
+         <obj_property name="ObjectShortName">slot_ready_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_ready_reg_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_ready_reg_next</obj_property>
+         <obj_property name="ObjectShortName">slot_ready_reg_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ppm_mod/uut/slot_bits" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">slot_bits</obj_property>
+         <obj_property name="ObjectShortName">slot_bits</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

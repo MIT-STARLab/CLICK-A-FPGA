@@ -1,0 +1,57 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Tue Sep 26 21:27:57 2017
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:sem:3.6
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = VHDL
+SET device = xc6slx9
+SET devicefamily = spartan6
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = tqg144
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = false
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT Soft_Error_Mitigation xilinx.com:ip:sem:3.6
+# END Select
+# BEGIN Parameters
+CSET clock_freq=48
+CSET component_name=sem_v3_6_0
+CSET correction_method=repair
+CSET enable_bottom_gt_scan=true
+CSET enable_classification=false
+CSET enable_correction=true
+CSET enable_injection=true
+CSET enable_top_gt_scan=true
+CSET injection_shim=pins
+CSET retrieval_shim=none
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2013-04-08T13:40:10Z
+# END Extra information
+GENERATE
+# CRC: 4e9cf21f

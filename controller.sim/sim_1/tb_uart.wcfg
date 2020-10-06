@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_uart.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_uart" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_uart/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/data_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/data_value2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_value2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_value2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider18" type="divider">
+      <obj_property name="label">Tx UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/rx_uart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_uart</obj_property>
+      <obj_property name="ObjectShortName">rx_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/data_vld" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_vld</obj_property>
+      <obj_property name="ObjectShortName">data_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/frame_error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_error</obj_property>
+      <obj_property name="ObjectShortName">frame_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider17" type="divider">
+      <obj_property name="label">Rx UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/tx_uart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_uart</obj_property>
+      <obj_property name="ObjectShortName">tx_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/data_send" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_send</obj_property>
+      <obj_property name="ObjectShortName">data_send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+</wave_config>

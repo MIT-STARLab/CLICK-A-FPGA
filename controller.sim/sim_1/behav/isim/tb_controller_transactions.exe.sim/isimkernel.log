@@ -1,0 +1,29 @@
+Command line:
+   tb_controller_transactions.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50923
+
+Wed Sep 18 17:23:38 2019
+
+
+ Elaboration Time: 0.171602 sec
+
+ Current Memory Usage: 677.519 Meg
+
+ Total Signals          : 2396
+ Total Nets             : 9048
+ Total Signal Drivers   : 1189
+ Total Blocks           : 149
+ Total Primitive Blocks : 98
+ Total Processes        : 603
+ Total Traceable Variables  : 1270
+ Total Scalar Nets and Variables : 15316
+Total Line Count : 3102
+
+ Total Simulation Time: 0.452404 sec
+
+ Current Memory Usage: 834.806 Meg
+
+Fri Sep 27 12:43:06 2019
+

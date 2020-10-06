@@ -1,0 +1,9 @@
+INFO:sim:172 - Generating IP...
+WARNING:sim:100 - The Simulation File Type <Behavioral> is not valid for this
+   core. Overriding with File Type <Structural>.
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - VHDL simulation file type 'Behavioral' is not valid for this core.
+   Overriding with simulation file type 'Structural'.
+Cancelled executing Tcl generator.
+Saved CGP file for project 'coregen'.

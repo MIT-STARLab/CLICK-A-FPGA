@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="synth_5" Type="Ft3:Synth" SrcSet="sources_1" Part="xc6slx9tqg144-3" LaunchPart="xc6slx9tqg144-3" ConstrsSet="constrs_1" Description="PlanAhead Defaults (XST defaults with hierarchy)" Dir="$PRUNDIR/synth_5" LaunchTime="1506017815">
+		<File Type="XST-NGC" Name="top_level.ngc"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_5/synth_5.psg"/>
+		<File Type="XST-SRP" Name="top_level.srp"/>
+		<File Type="PA-XST" Name="top_level.xst"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_5/sources.xml"/>
+		<File Type="PA-XSTPRJ" Name="top_level.prj"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_5/constrs_in.xml"/>
+	</Run>
+	<Run Id="synth_6" Type="Ft3:Synth" SrcSet="sources_1" Part="xc6slx9tqg144-3" LaunchPart="xc6slx9tqg144-3" ConstrsSet="constrs_1" Description="PlanAhead Defaults (XST defaults with hierarchy)" State="current" Dir="$PRUNDIR/synth_6" LaunchTime="1591458742">
+		<File Type="XST-NGC" Name="top_level.ngc"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_6/synth_6.psg"/>
+		<File Type="XST-SRP" Name="top_level.srp"/>
+		<File Type="PA-XST" Name="top_level.xst"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_6/sources.xml"/>
+		<File Type="PA-XSTPRJ" Name="top_level.prj"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_6/constrs_in.xml"/>
+	</Run>
+	<Run Id="impl_5" Type="Ft2:EntireDesign" SynthRun="synth_5" Part="xc6slx9tqg144-3" LaunchPart="xc6slx9tqg144-3" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" Dir="$PRUNDIR/impl_5" LaunchTime="1506017852">
+		<File Type="MAP-PSR" Name="top_level.psr"/>
+		<File Type="PA-EDIF" Name="top_level.edf"/>
+		<File Type="PAR-NCD" Name="top_level_routed.ncd"/>
+		<File Type="PA-UCF" Name="top_level.ucf"/>
+		<File Type="PAR-PAD" Name="top_level_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="top_level_routed.par"/>
+		<File Type="PAR-UNR" Name="top_level_routed.unroutes"/>
+		<File Type="BG-BIT" Name="top_level.bit"/>
+		<File Type="BG-DRC" Name="top_level.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="top_level.bgn"/>
+		<File Type="TRCE-TWR" Name="top_level.twr"/>
+		<File Type="TRCE-TWX" Name="top_level.twx"/>
+		<File Type="XDL-XDL" Name="top_level_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_5/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_5/impl_5.psg"/>
+		<File Type="NGDB-NGD" Name="top_level.ngd"/>
+		<File Type="NGDB-BLD" Name="top_level.bld"/>
+		<File Type="MAP-NCD" Name="top_level.ncd"/>
+		<File Type="MAP-PCF" Name="top_level.pcf"/>
+		<File Type="MAP-MRP" Name="top_level.mrp"/>
+		<File Type="MAP-MAP" Name="top_level.map"/>
+	</Run>
+	<Run Id="impl_6" Type="Ft2:EntireDesign" SynthRun="synth_6" Part="xc6slx9tqg144-3" LaunchPart="xc6slx9tqg144-3" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/impl_6" LaunchTime="1591458803">
+		<File Type="MAP-PSR" Name="top_level.psr"/>
+		<File Type="PA-EDIF" Name="top_level.edf"/>
+		<File Type="PAR-NCD" Name="top_level_routed.ncd"/>
+		<File Type="PA-UCF" Name="top_level.ucf"/>
+		<File Type="PAR-PAD" Name="top_level_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="top_level_routed.par"/>
+		<File Type="PAR-UNR" Name="top_level_routed.unroutes"/>
+		<File Type="BG-BIT" Name="top_level.bit"/>
+		<File Type="BG-DRC" Name="top_level.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="top_level.bgn"/>
+		<File Type="TRCE-TWR" Name="top_level.twr"/>
+		<File Type="TRCE-TWX" Name="top_level.twx"/>
+		<File Type="XDL-XDL" Name="top_level_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_6/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_6/impl_6.psg"/>
+		<File Type="NGDB-NGD" Name="top_level.ngd"/>
+		<File Type="NGDB-BLD" Name="top_level.bld"/>
+		<File Type="MAP-NCD" Name="top_level.ncd"/>
+		<File Type="MAP-PCF" Name="top_level.pcf"/>
+		<File Type="MAP-MRP" Name="top_level.mrp"/>
+		<File Type="MAP-MAP" Name="top_level.map"/>
+	</Run>
+</Runs>
+

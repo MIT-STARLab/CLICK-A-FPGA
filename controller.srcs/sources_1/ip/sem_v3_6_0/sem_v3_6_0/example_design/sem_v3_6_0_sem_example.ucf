@@ -1,0 +1,273 @@
+#############################################################################
+##
+##
+##
+#############################################################################
+##   ____  ____
+##  /   /\/   /
+## /___/  \  /
+## \   \   \/    Core:          sem
+##  \   \        Module:        sem_example
+##  /   /        Filename:      sem_example.ucf
+## /___/   /\    Purpose:       Constraints for the example design.
+## \   \  /  \
+##  \___\/\___\
+##
+#############################################################################
+##
+## (c) Copyright 2010 - 2013 Xilinx, Inc. All rights reserved.
+##
+## This file contains confidential and proprietary information
+## of Xilinx, Inc. and is protected under U.S. and
+## international copyright and other intellectual property
+## laws.
+##
+## DISCLAIMER
+## This disclaimer is not a license and does not grant any
+## rights to the materials distributed herewith. Except as
+## otherwise provided in a valid license issued to you by
+## Xilinx, and to the maximum extent permitted by applicable
+## law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+## WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+## AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+## BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+## INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+## (2) Xilinx shall not be liable (whether in contract or tort,
+## including negligence, or under any other theory of
+## liability) for any loss or damage of any kind or nature
+## related to, arising under or in connection with these
+## materials, including for any direct, or any indirect,
+## special, incidental, or consequential loss or damage
+## (including loss of data, profits, goodwill, or any type of
+## loss or damage suffered as a result of any action brought
+## by a third party) even if such damage or loss was
+## reasonably foreseeable or Xilinx had been advised of the
+## possibility of the same.
+##
+## CRITICAL APPLICATIONS
+## Xilinx products are not designed or intended to be fail-
+## safe, or for use in any application requiring fail-safe
+## performance, such as life-support or safety devices or
+## systems, Class III medical devices, nuclear facilities,
+## applications related to the deployment of airbags, or any
+## other applications that could lead to death, personal
+## injury, or severe property or environmental damage
+## (individually and collectively, "Critical
+## Applications"). Customer assumes the sole risk and
+## liability of any use of Xilinx products in Critical
+## Applications, subject only to applicable laws and
+## regulations governing limitations on product liability.
+##
+## THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+## PART OF THIS FILE AT ALL TIMES. 
+##
+#############################################################################
+##
+## Constraint Description:
+##
+## These constraints are for physical implementation of the system level
+## design example.
+##
+## The SEM controller initializes and manages the FPGA integrated silicon
+## features for soft error mitigation.  When the controller is included
+## in a design, do not include any design constraints related to these
+## features.  Similarly, do not use any related bitgen options other than
+## those for generating essential bit data files.
+##
+#############################################################################
+
+CONFIG PART = xc6slx9-tqg144-3 ;
+
+########################################
+## Controller: Internal Timing
+########################################
+
+## The controller clock PERIOD constraint is propagated into the controller
+## from the system level design example, where a PERIOD constraint is applied
+## on the external clock input pin.
+
+########################################
+## Example Design: Master Clock
+########################################
+
+## Constraints on the clock net, including the clock PERIOD constraint.
+
+NET "clk"                                           IOSTANDARD = LVCMOS25 | PERIOD = 20833 ps ;
+
+########################################
+## Example Design: Status Pins
+########################################
+
+## Constraints on the external status pins.  These are expected to
+## be used as asynchronous "flag" outputs, although they can be used
+## as synchronous outputs with respect to the "clk" input signal.
+## The timing constraints are therefore intended to make sure the
+## timing paths are analyzed, rather than unconstrained.  It is also
+## possible to use these as internal signals between the status port
+## and user-supplied logic to observe the status port.  In such use,
+## the signals would be covered by PERIOD constraint.
+
+NET "status_initialization"                         IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_observation"                            IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_correction"                             IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_classification"                         IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_injection"                              IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_uncorrectable"                          IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_essential"                              IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+NET "status_heartbeat"                              IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = STAPINS ;
+
+TIMEGRP "STAPINS"                                   OFFSET = OUT 41666 ps AFTER "clk" ;
+
+########################################
+## Example Design: MON Shim and Pins
+########################################
+
+## Constraints on the MON shim external pins, for reproducibility.
+## The timing analysis by trce need not be reviewed for these pins
+## as the serial communications interface is asynchronous.
+
+INST "example_mon/example_mon_sipo/sync_reg"        IOB = TRUE ;
+INST "example_mon/example_mon_piso/pipeline_serial" IOB = TRUE ;
+
+NET "monitor_tx"                                    IOSTANDARD = LVCMOS25 | DRIVE = 4 | SLEW = SLOW | TNM = SERPINS ;
+NET "monitor_rx"                                    IOSTANDARD = LVCMOS25 | TNM = SERPINS ;
+
+TIMEGRP "SERPINS"                                   OFFSET = IN  41666 ps VALID 83332 ps BEFORE "clk" ;
+TIMEGRP "SERPINS"                                   OFFSET = OUT 41666 ps AFTER "clk" ;
+
+########################################
+## Example Design: HID Shim and Pins
+########################################
+
+## Constraints on the external error injection pins.  Although
+## the example design brings these to external pins and they may
+## be used as synchronous inputs with respect to the "clk" input
+## signal, these are expected to be used as internal signals
+## between the error injection port and user-supplied logic to
+## control the error injection port.  In such use, the signals
+## would be covered by PERIOD constraint.  Timing constraints
+## are therefore intended to make sure the timing paths are
+## analyzed, rather than unconstrained.
+
+NET "inject_strobe"                                 IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[0]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[1]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[2]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[3]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[4]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[5]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[6]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[7]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[8]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[9]"                             IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[10]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[11]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[12]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[13]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[14]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[15]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[16]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[17]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[18]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[19]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[20]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[21]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[22]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[23]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[24]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[25]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[26]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[27]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[28]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[29]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[30]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[31]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[32]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[33]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[34]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+NET "inject_address[35]"                            IOSTANDARD = LVCMOS25 | TNM = INJPINS ;
+
+TIMEGRP "INJPINS"                                   OFFSET = IN  41666 ps VALID 83332 ps BEFORE "clk" ;
+
+########################################
+## Example Design: Logic Placement
+########################################
+
+## Constraints on logic placement.  The controller and its
+## shims, which are the soft error mitigation solution, need
+## to be reasonably area constrained.  This keeps everything
+## near the configuration logic and also helps in generating
+## a reasonable slice count estimate for reliability estimates.
+
+INST "example_controller/*" AREA_GROUP = "SEM_CONTROLLER" ;
+INST "example_mon/*" AREA_GROUP = "SEM_CONTROLLER" ;
+
+AREA_GROUP "SEM_CONTROLLER" RANGE = SLICE_X8Y2:SLICE_X23Y15 ;
+AREA_GROUP "SEM_CONTROLLER" RANGE = RAMB16_X1Y0:RAMB16_X1Y8 ;
+AREA_GROUP "SEM_CONTROLLER" RANGE = RAMB8_X1Y0:RAMB8_X1Y9 ;
+
+## Prohibit addition of unrelated logic into this group...
+AREA_GROUP "SEM_CONTROLLER" GROUP = CLOSED ;
+
+## Allow placement of unrelated components in the range...
+AREA_GROUP "SEM_CONTROLLER" PLACE = OPEN ;
+
+########################################
+## Example Design: I/O Placement
+########################################
+
+## To place the I/O, uncomment the following template and
+## annotate with desired pin location for each signal.
+
+## NET "clk"                                        LOC = "    " ;
+## NET "status_initialization"                      LOC = "    " ;
+## NET "status_observation"                         LOC = "    " ;
+## NET "status_correction"                          LOC = "    " ;
+## NET "status_classification"                      LOC = "    " ;
+## NET "status_injection"                           LOC = "    " ;
+## NET "status_uncorrectable"                       LOC = "    " ;
+## NET "status_essential"                           LOC = "    " ;
+## NET "status_heartbeat"                           LOC = "    " ;
+## NET "monitor_tx"                                 LOC = "    " ;
+## NET "monitor_rx"                                 LOC = "    " ;
+## NET "inject_strobe"                              LOC = "    " ;
+## NET "inject_address[0]"                          LOC = "    " ;
+## NET "inject_address[1]"                          LOC = "    " ;
+## NET "inject_address[2]"                          LOC = "    " ;
+## NET "inject_address[3]"                          LOC = "    " ;
+## NET "inject_address[4]"                          LOC = "    " ;
+## NET "inject_address[5]"                          LOC = "    " ;
+## NET "inject_address[6]"                          LOC = "    " ;
+## NET "inject_address[7]"                          LOC = "    " ;
+## NET "inject_address[8]"                          LOC = "    " ;
+## NET "inject_address[9]"                          LOC = "    " ;
+## NET "inject_address[10]"                         LOC = "    " ;
+## NET "inject_address[11]"                         LOC = "    " ;
+## NET "inject_address[12]"                         LOC = "    " ;
+## NET "inject_address[13]"                         LOC = "    " ;
+## NET "inject_address[14]"                         LOC = "    " ;
+## NET "inject_address[15]"                         LOC = "    " ;
+## NET "inject_address[16]"                         LOC = "    " ;
+## NET "inject_address[17]"                         LOC = "    " ;
+## NET "inject_address[18]"                         LOC = "    " ;
+## NET "inject_address[19]"                         LOC = "    " ;
+## NET "inject_address[20]"                         LOC = "    " ;
+## NET "inject_address[21]"                         LOC = "    " ;
+## NET "inject_address[22]"                         LOC = "    " ;
+## NET "inject_address[23]"                         LOC = "    " ;
+## NET "inject_address[24]"                         LOC = "    " ;
+## NET "inject_address[25]"                         LOC = "    " ;
+## NET "inject_address[26]"                         LOC = "    " ;
+## NET "inject_address[27]"                         LOC = "    " ;
+## NET "inject_address[28]"                         LOC = "    " ;
+## NET "inject_address[29]"                         LOC = "    " ;
+## NET "inject_address[30]"                         LOC = "    " ;
+## NET "inject_address[31]"                         LOC = "    " ;
+## NET "inject_address[32]"                         LOC = "    " ;
+## NET "inject_address[33]"                         LOC = "    " ;
+## NET "inject_address[34]"                         LOC = "    " ;
+## NET "inject_address[35]"                         LOC = "    " ;
+
+#############################################################################
+##
+#############################################################################

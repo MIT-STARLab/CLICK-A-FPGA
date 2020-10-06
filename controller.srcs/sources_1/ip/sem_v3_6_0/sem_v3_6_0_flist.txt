@@ -1,0 +1,23 @@
+# Output products list for <sem_v3_6_0>
+sem_v3_6_0.asy
+sem_v3_6_0.gise
+sem_v3_6_0.ngc
+sem_v3_6_0.vhd
+sem_v3_6_0.vho
+sem_v3_6_0.xco
+sem_v3_6_0.xise
+sem_v3_6_0\doc\pg036_sem.pdf
+sem_v3_6_0\example_design\sem_v3_6_0_sem_cfg.vhd
+sem_v3_6_0\example_design\sem_v3_6_0_sem_example.ucf
+sem_v3_6_0\example_design\sem_v3_6_0_sem_example.vhd
+sem_v3_6_0\example_design\sem_v3_6_0_sem_mon.vhd
+sem_v3_6_0\example_design\sem_v3_6_0_sem_mon_fifo.vhd
+sem_v3_6_0\example_design\sem_v3_6_0_sem_mon_piso.vhd
+sem_v3_6_0\example_design\sem_v3_6_0_sem_mon_sipo.vhd
+sem_v3_6_0\implement\implement.bat
+sem_v3_6_0\implement\implement.sh
+sem_v3_6_0\implement\xst.prj
+sem_v3_6_0\implement\xst.scr
+sem_v3_6_0\sem_v3_6_readme.txt
+sem_v3_6_0_flist.txt
+sem_v3_6_0_xmdf.tcl

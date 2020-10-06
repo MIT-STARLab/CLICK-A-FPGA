@@ -1,0 +1,256 @@
+#
+# Copyright (C) 2009-2012 Chris McClelland
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+#===============================================================================
+# USB interface
+#===============================================================================
+# IFCLK
+NET "fx2Clk_in" LOC = P123; # C10;
+NET "fx2Clk_in" IOSTANDARD = LVTTL;
+NET "fx2Clk_in" TNM_NET = "fx2Clk_in";
+TIMESPEC TS_clk = PERIOD "fx2Clk_in" 20.833 ns HIGH 50 %;
+# PA4/FIFOADR0
+#NET "fx2Addr_out[0]" LOC = ; #  A14;  
+NET "fx2Addr_out[0]" IOSTANDARD = LVTTL;
+# PA5/FIFOADR1
+NET "fx2Addr_out[1]" LOC = P104; #  B14;
+NET "fx2Addr_out[1]" IOSTANDARD = LVTTL;
+
+# PB0/FD0
+NET "fx2Data_io[0]" LOC = P121; #  A2;
+NET "fx2Data_io[0]" IOSTANDARD = LVTTL;
+# PB1/FD1
+NET "fx2Data_io[1]" LOC = P120; #  D6;
+NET "fx2Data_io[1]" IOSTANDARD = LVTTL;
+# PB2/FD2
+NET "fx2Data_io[2]" LOC = P119; #  C6;
+NET "fx2Data_io[2]" IOSTANDARD = LVTTL;
+# PB3/FD3
+NET "fx2Data_io[3]" LOC = P118; #  B3;
+NET "fx2Data_io[3]" IOSTANDARD = LVTTL;
+# PB4/FD4
+NET "fx2Data_io[4]" LOC = P117; #  A3;
+NET "fx2Data_io[4]" IOSTANDARD = LVTTL;
+# PB5/FD5
+NET "fx2Data_io[5]" LOC = P116; #  B4;
+NET "fx2Data_io[5]" IOSTANDARD = LVTTL;
+# PB6/FD6
+NET "fx2Data_io[6]" LOC = P115; #  A4;
+NET "fx2Data_io[6]" IOSTANDARD = LVTTL;
+# PB7/FD7
+NET "fx2Data_io[7]" LOC = P114; #  C5;
+NET "fx2Data_io[7]" IOSTANDARD = LVTTL;
+
+# RDY0/SLRD
+NET "fx2Read_out" LOC = P105; #  F13;
+NET "fx2Read_out" IOSTANDARD = LVTTL;
+# PA2/SLOE
+NET "fx2OE_out" LOC = P100; #  A15; 
+NET "fx2OE_out" IOSTANDARD = LVTTL;
+# CTL2/FLAGC
+NET "fx2GotData_in" LOC = P111; #  C15;
+NET "fx2GotData_in" IOSTANDARD = LVTTL;
+
+# RDY1/SLWR
+NET "fx2Write_out" LOC = P101; #  E13;
+NET "fx2Write_out" IOSTANDARD = LVTTL;
+# CTL1/FLAGB
+NET "fx2GotRoom_in" LOC = P112; #  A9;
+NET "fx2GotRoom_in" IOSTANDARD = LVTTL;
+# PA6/PKTEND
+NET "fx2PktEnd_out" LOC = P102; #  C4;
+NET "fx2PktEnd_out" IOSTANDARD = LVTTL;
+
+
+#===============================================================================
+# GPIOs and TPs
+#===============================================================================
+
+
+#-------------------------------------------------------------------------------
+# TPs
+#-------------------------------------------------------------------------------
+
+NET "wr_o" LOC = P97; #TP(0)
+NET "wr_o" IOSTANDARD = LVTTL;
+NET "toggle_o" LOC = P98; #TP(1)
+NET "toggle_o" IOSTANDARD = LVTTL;
+
+#===============================================================================
+# DAC
+#===============================================================================
+
+#NET "ldTemp_o[0]" LOC = P38;
+NET "ldTemp_o[1]" LOC = P39;
+NET "ldTemp_o[2]" LOC = P40;
+NET "ldTemp_o[3]" LOC = P41;
+NET "ldTemp_o[4]" LOC = P43;
+NET "ldTemp_o[5]" LOC = P44;
+NET "ldTemp_o[6]" LOC = P45;
+NET "ldTemp_o[7]" LOC = P46;
+#NET "ldTemp_o[8]" LOC = P47;
+NET "ldTemp_o[9]" LOC = P48;
+NET "ldTemp_o[10]" LOC = P50;
+NET "ldTemp_o[11]" LOC = P51;
+NET "nldTempWE_o" LOC = P93; #IO24
+NET "ldTemp_o[0]" LOC = P94; #IO25
+NET "ldTemp_o[8]" LOC = P95; #IO26
+
+
+NET "ldTemp_o[0]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[1]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[2]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[3]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[4]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[5]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[6]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[7]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[8]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[9]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[10]" IOSTANDARD = LVTTL;
+NET "ldTemp_o[11]" IOSTANDARD = LVTTL;
+NET "nldTempWE_o" IOSTANDARD = LVTTL;
+
+#===============================================================================
+# Comms
+#===============================================================================
+NET "spi1mosi_o" LOC = P59; #IO1
+NET "spi1clk_o" LOC = P60; #IO2
+NET "spi1nsync_o[0]" LOC = P61; #IO3 
+NET "spi1nsync_o[1]" LOC = P62; #IO4 
+
+NET "spi2miso_i" LOC = P64; #IO5 
+NET "spi2clk_o" LOC = P65; #IO6
+NET "spi2ncs_o[11]" LOC = P66; #IO7
+NET "spi2ncs_o[10]" LOC = P67; #IO8
+NET "spi2ncs_o[9]" LOC = P69; #IO9
+NET "spi2ncs_o[8]" LOC = P70; #IO10
+NET "spi2ncs_o[7]" LOC = P74; #IO11
+NET "spi2ncs_o[6]" LOC = P75; #IO12
+NET "spi2ncs_o[5]" LOC = P78; #IO13
+NET "spi2ncs_o[4]" LOC = P79; #IO14
+NET "spi2ncs_o[3]" LOC = P80; #IO15
+NET "spi2ncs_o[2]" LOC = P81; #IO16
+NET "spi2ncs_o[1]" LOC = P82; #IO17
+NET "spi2ncs_o[0]" LOC = P83; #IO18
+
+NET "spi3mosi_o" LOC = P84; #IO19
+NET "spi3clk_o" LOC = P85; #IO20
+NET "spi3ncs_o" LOC = P87; #IO21
+#NET "spi3rst_o" LOC = P16;# SPI3_RESET ??????????????????????????????????????????????????????????????????????????????????????
+
+NET "uart_o" LOC = P88; #IO22
+NET "uart_i" LOC = P92; #IO23
+
+
+
+NET "spi1mosi_o" IOSTANDARD = LVTTL;
+NET "spi1clk_o" IOSTANDARD = LVTTL;
+NET "spi1nsync_o[0]" IOSTANDARD = LVTTL;
+NET "spi1nsync_o[1]" IOSTANDARD = LVTTL;
+
+NET "spi2miso_i" IOSTANDARD = LVTTL;
+NET "spi2clk_o" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[11]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[10]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[9]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[8]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[7]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[6]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[5]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[4]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[3]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[2]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[1]" IOSTANDARD = LVTTL;
+NET "spi2ncs_o[0]" IOSTANDARD = LVTTL;
+
+NET "spi3mosi_o" IOSTANDARD = LVTTL;
+NET "spi3clk_o" IOSTANDARD = LVTTL;
+NET "spi3ncs_o" IOSTANDARD = LVTTL;
+#NET "spi3rst_o" IOSTANDARD = LVTTL;
+
+NET "uart_o" IOSTANDARD = LVTTL;
+NET "uart_i" IOSTANDARD = LVTTL;
+#===============================================================================
+# Thermal
+#===============================================================================
+ 
+NET "loadSw_o[3]" LOC = P137;
+NET "loadSw_o[2]" LOC = P138;
+NET "loadSw_o[1]" LOC = P139;
+NET "loadSw_o[0]" LOC = P140;
+
+NET "heater_o[1]" LOC = P30;
+NET "heater_o[0]" LOC = P32;
+
+
+NET "loadSw_o[3]" IOSTANDARD = LVTTL;
+NET "loadSw_o[2]" IOSTANDARD = LVTTL;
+NET "loadSw_o[1]" IOSTANDARD = LVTTL;
+NET "loadSw_o[0]" IOSTANDARD = LVTTL;
+
+NET "heater_o[1]" IOSTANDARD = LVTTL;
+NET "heater_o[0]" IOSTANDARD = LVTTL;
+#===============================================================================
+# Tx and Cal
+#===============================================================================
+#-- NET "" LOC = P58;
+NET "calDiode_o" LOC = P29;
+#NET "comp_i[3]" LOC = ;
+NET "comp_i[2]" LOC = P141;
+NET "comp_i[1]" LOC = P142;
+NET "comp_i[0]" LOC = P143;
+
+NET "clk100MHz_i" LOC = P124;
+NET "clk100MHz_i" IOSTANDARD = LVTTL;
+
+#NET "pwm_o" IOSTANDARD = LVTTL;
+NET "calDiode_o" IOSTANDARD = LVTTL;
+#NET "comp_i[3]" IOSTANDARD = LVTTL;
+NET "comp_i[2]" IOSTANDARD = LVTTL;
+NET "comp_i[1]" IOSTANDARD = LVTTL;
+NET "comp_i[0]" IOSTANDARD = LVTTL;
+
+
+#===============================================================================
+# Timing constraint of FX2 48MHz clock "fx2Clk_in"
+#===============================================================================
+#NET "fx2Clk_in" TNM_NET = "fx2Clk_in";
+#TIMESPEC TS_clk = PERIOD "fx2Clk_in" 20.833 ns HIGH 50 %;
+
+# This sledge-hammer approach works, but will also bury any other
+#accidental clock domain crosses I might make elsewhere... in other
+#words, this is a very very bad idea.
+#Created by Constraints Editor (xc6slx45-csg324-3) - 2015/04/22
+#TIMESPEC TS_asyncfifo1 = FROM "fx2Clk_in" TO "swled_app_clock_gen_200_my_dcm_clkfx" TIG;
+#TIMESPEC TS_asyncfifo2 = FROM "swled_app_clock_gen_200_my_dcm_clkfx" TO "fx2Clk_in" TIG;
+
+# Constraints extracted from names in timing analyzer tool (WRONG!!!)
+# Not entirely certain why this one doesn't work...I think it might be
+# targeting flipflop names as opposed to signals connecting to them.
+#NET "*/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc_*" TIG;
+#NET "*/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc_*" TIG;
+
+# Inferred from schematic editor (found FF's straddling clock domains)
+# I think this approach is actually correct, but it was a royal PITA
+# to determine those net names.  ISE schematic editor, made even more
+# hellish by the low-rez screen on this laptop.
+
+
+
+# NET "*/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].rd_stg_inst/D*" TIG;
+# NET "*/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/gsync_stage[1].wr_stg_inst/D*" TIG;

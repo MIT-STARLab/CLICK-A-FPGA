@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PDATADIR/constrs_1/designprops.xml">
+      <FileInfo SFType="CompatPartsDb">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../PlanAhead/project_1/project_1.data/constrs_1/designprops.xml"/>
+        <Attr Name="ImportTime" Val="1485880845"/>
+      </FileInfo>
+    </File>
+    <File Path="$PDATADIR/constrs_1/usercols.xml">
+      <FileInfo SFType="UserColsDb">
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../PlanAhead/project_1/project_1.data/constrs_1/usercols.xml"/>
+        <Attr Name="ImportTime" Val="1485880845"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/FPGAboard.ucf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/board.ucf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../PlanAhead/project_1/project_1.srcs/constrs_1/new/board.ucf"/>
+        <Attr Name="ImportTime" Val="1485919816"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/FPGAboardSPI.ucf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/FPGAboard.ucf"/>
+      <Option Name="ConstrsType" Val="UCF"/>
+    </Config>
+  </FileSet>
+</DARoots>

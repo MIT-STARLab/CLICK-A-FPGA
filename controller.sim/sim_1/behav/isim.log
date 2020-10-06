@@ -1,0 +1,31 @@
+ISim log file
+Running: C:/Users/nn_w7/Desktop/Controller/controller.sim/sim_1/behav/tb_controller_transactions.exe -intstyle pa -gui -tclbatch isim.cmd -wdb tb_controller_transactions.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_controller_transactions/controller_inst/modulator_top_inst/modulator_inst/var_delay_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps: Note: WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information. (/tb_controller_transactions/controller_inst/modulator_top_inst/fifo_data_inst/U0/gconvfifo/inst_conv_fifo/).
+at 0 ps: Note: WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information. (/tb_controller_transactions/controller_inst/modulator_top_inst/fifo_errors_inst/U0/gconvfifo/inst_conv_fifo/).
+at 0 ps: Note: WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information. (/tb_controller_transactions/controller_inst/modulator_top_inst/fifo_ones_inst/U0/gconvfifo/inst_conv_fifo/).
+Finished circuit initialization process.
+at 0 ps, Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 10400 ps(2), Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 10400 ps(3), Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 426400 ps(3), Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 447200 ps(3), Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 468 ns(3), Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 488800 ps(3), Instance /tb_controller_transactions/controller_inst/regFile_inst/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 506133 ps: Note: ========================================================================================= (/tb_controller_transactions/tb_ctrl_inst/).
+at 506133 ps: Note: Testing DAC for Comparators - THRa, THRb, THRc - SPI1 (/tb_controller_transactions/tb_ctrl_inst/).
+at 506133 ps: Note: ------------------------------------------------------------------------------------------------------------------------------------------------------------ (/tb_controller_transactions/tb_ctrl_inst/).

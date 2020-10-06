@@ -1,0 +1,1 @@
+-intstyle "pa" -incremental -L "work" -L "secureip" -o "tb_controller_transactions.exe" --prj "C:/Users/nn_w7/Desktop/Controller/controller.sim/sim_1/behav/tb_controller_transactions.prj" -top "work.tb_controller_transactions" 

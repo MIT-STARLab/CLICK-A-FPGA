@@ -1,0 +1,13 @@
+SET_PARAMETER enable_top_gt_scan true
+SET_PARAMETER enable_classification false
+SET_PARAMETER clock_freq 48
+SET_PARAMETER enable_correction true
+SET_PARAMETER enable_injection true
+SET_PARAMETER enable_bottom_gt_scan true
+SET_PARAMETER retrieval_shim none
+SET_PARAMETER component_name sem_v3_6_0
+SET_PARAMETER injection_shim pins
+SET_PARAMETER correction_method repair
+SET_ERROR_CODE 2
+SET_ERROR_MSG  CANCEL: Customization cancelled.
+SET_ERROR_TEXT Finished initializing IP model.	
